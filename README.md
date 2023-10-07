@@ -1,30 +1,36 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DA161)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DA161)
 
-# Session ID - Session Title
+# DA161- Unified Story Experience for SAP Analytics Cloud
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2023 session called DA161- Unified Story Experience for SAP Analytics Cloud.
 
 ## Overview
 
-This session introduces attendees to...
+This session consists of a series of exercises to introduce you to basics of SAP Analytics Cloud giving you the opportunity to interact with the latest visualizations, leverage basic planning capabilities, and learn to customize their dashboards using simple scripting all in a single user interface.
 
-## Requirements
+We've also included with our new Unified Story Experience which combines the simplicity of our traditional story-based dashboard and the extensibility of our existing analytics application building capabilities.
 
-The requirements to follow the exercises in this repository are...
+## Instructions to Logon to Tenant
+
+We will be using a provided SAP Analytics Cloud Tenant for these exercises. You can find a list of login credentials that will allow you to access the tenant under the User List..
+
+Tenant URL: https://ana161.eu10.hcs.cloud.sap/
+
+Users: User List
 
 ## Exercises
 
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Exercise 1 - Understanding the Basics of SAP Analytics Cloud Stories](exercises/ex1/) 
+- [Exercise 2 - Expand the Dashboard with Core Add-ons](exercises/ex2/)
+- [Exercise 3 - Customize the View Time Experience with No Code Features and Formatting](exercises/ex3/)
+- [Exercise 4 - Extend the Dashboard with No Code Features](exercises/ex3/)
+- [Exercise 5 - Extend the Dashboard with Scripting](exercises/ex3/)
+   
 
   
 **OR** Link to the Tutorial Navigator for example...
