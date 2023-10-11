@@ -1,8 +1,9 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 - Expand the Dashboard with Core Add-ons
+
 
 In this exercise, we will create...
 
-## Exercise 2.1 Sub Exercise 1 Description
+## Exercise 2.1 View Time Toolbar Customization
 
 After completing these steps you will have created...
 
@@ -16,7 +17,7 @@ response->set_text( |Hello ABAP World! | ).
 
 
 
-## Exercise 2.2 Sub Exercise 2 Description
+## Exercise 2.2 Create a Variance within a Story
 
 After completing these steps you will have...
 
@@ -40,3 +41,5 @@ READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
 You've now ...
 
 Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+
+## Exercise 2.3 Create a threshold
