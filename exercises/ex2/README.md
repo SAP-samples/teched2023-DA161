@@ -1,19 +1,23 @@
 # Exercise 2 - Expand the Dashboard with Core Add-ons
 
 
-In this exercise, we will create...
+
+
 
 ## Exercise 2.1 View Time Toolbar Customization
 
-After completing these steps you will have created...
 
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
+Objective: You should develop a basic understanding on how to create Customize your toolbar for various experiences of SAP Analytics Cloud Stories.
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+Estimated Time: 15 mins
+
+Exercise Description: You as a Dashabord designer want to control the toolbar experience for your end users, and having all the toolbar features is not really required for end users.
+
+Key Features:
+
+Define what view mode of the story you need to control for your end users view vs embed mode of your stories.
+Learn you to control the toolbar features via story settings.
+
 
 
 
