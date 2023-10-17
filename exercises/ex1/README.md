@@ -517,9 +517,3 @@ Hence, we will have to create a calculation to reflect this metric.
 
 Continue to - [Exercise 2 - Expand the Dashboard with Core Add-ons](../ex2/README.md)
 
-
-
-You've now ...
-
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
-
