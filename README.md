@@ -28,8 +28,8 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [Exercise 1 - Understanding the Basics of SAP Analytics Cloud Stories](exercises/ex1/) 
 - [Exercise 2 - Expand the Dashboard with Core Add-ons](exercises/ex2/)
 - [Exercise 3 - Customize the View Time Experience with No Code Features and Formatting](exercises/ex3/)
-- [Exercise 4 - Extend the Dashboard with No Code Features](exercises/ex3/)
-- [Exercise 5 - Extend the Dashboard with Scripting](exercises/ex3/)
+- [Exercise 4 - Extend the Dashboard with No Code Features](exercises/ex4/)
+- [Exercise 5 - Extend the Dashboard with Scripting](exercises/ex5/)
    
 
   
