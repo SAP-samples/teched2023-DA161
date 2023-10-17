@@ -4,7 +4,7 @@
 
 **Estimated Time:** 20 mins
 
-**Exercise Description:** In Exercise 2, our customers were able to execute planning actions. As they were working through the planning dashboard, they realized that they weren't sure what rates were being used for the calculations in the Financial Plan and Employee Plan. We want to provide them a better understanding of what those rates are by utilizing scripting capabilities in SAP Analytics Cloud.
+**Exercise Description:** In Exercise 4, our customers were able to extend the dashboard with No code features. while working through the Planning dashboard, they realized that they weren't sure what currency rates were being used for the calculations in the Financial Plan and Employee Plan. We want to provide them a better understanding of what those rates are by utilizing scripting capabilities in SAP Analytics Cloud.
 
 **Key Features:**
 * Understand how to add a popup in a dashboard
