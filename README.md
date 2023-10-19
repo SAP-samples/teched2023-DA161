@@ -18,7 +18,7 @@ We will be using a provided SAP Analytics Cloud Tenant for these exercises. You 
 
 Tenant URL: https://ana161.eu10.hcs.cloud.sap/
 
-Users: User List
+Users: [User List](https://docs.google.com/spreadsheets/d/1O0OeV8p_PGI7p1wCSjixx1rcGT36jCRgkCMv7jbnpuk/edit?usp=sharing)
 
 ## Exercises
 
