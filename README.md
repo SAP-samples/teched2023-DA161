@@ -20,9 +20,7 @@ Tenant URL: https://ana161.eu10.hcs.cloud.sap/
 
 Users: [User List](https://docs.google.com/spreadsheets/d/1O0OeV8p_PGI7p1wCSjixx1rcGT36jCRgkCMv7jbnpuk/edit?usp=sharing)
 
-## Exercises
-
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+## Hands-on Exercises
 
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - Understanding the Basics of SAP Analytics Cloud Stories](exercises/ex1/) 
@@ -31,21 +29,18 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [Exercise 4 - Extend the Dashboard with No Code Features](exercises/ex4/)
 - [Exercise 5 - Extend the Dashboard with Scripting](exercises/ex5/)
    
-
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
 **IMPORTANT**
 
 Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
 
-## Contributing
-Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
+## Further Learning
+**[Link to SAP Community](https://community.sap.com/topics/cloud-analytics)** - It contains a list of articles and blogs outlining various SAP Analytics Coud topics 
 
-## Code of Conduct
-Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples/.github/blob/main/CODE_OF_CONDUCT.md).
+**[Link to OpenSAP Course](https://open.sap.com/courses/sac1)** - It contains a list of various trainings that enabled you to make intelligent decisions with SAP Analytics Cloud
+
+**[Link to Customer Influence](https://influence.sap.com/sap/ino/#/campaign/884)** - You can help shape the future of SAP Analytics Cloud by suggesting and voting on potential improvements
+
+**[Link to Roadmap Explorer](https://roadmaps.sap.com/board?PRODUCT=67838200100800006884&range=CURRENT-LAST#Q4%202021)** - You can learn more about the future improvements that will be coming to SAP Analytics Cloud with every quarterly release 
 
 ## How to obtain support
 
