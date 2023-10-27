@@ -123,11 +123,8 @@ Create **Composites**
 28. Now you can see the Title, Subtitle and Description is updated.
   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/607f198f-4f9b-415d-afc4-e5ba3e9c4841)
 
-
 ## Summary
-
 **You have completed the Creation of Composite section!**
-
 **You are now able to:**
 * Understand how to Create and add Composites in a dashboard
 
