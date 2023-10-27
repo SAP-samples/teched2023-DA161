@@ -22,26 +22,113 @@
 * Create a custom widget
 * Create a custom widget Add-on
 ----------------------------------------------------------------------------------------------------------------------------------------
+Create **Composites** 
 
-## Level 2 Heading
+1. Navigate to SAC **HomePage**
+   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/80da7ab7-2943-4678-931b-72f22b1af7c0)
 
-After completing these steps you will have....
+2.Navigate to stories and Click on Composites
+   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/13b90686-9d1c-4e4d-958a-bb9bfbd5517f)
 
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
+3. Composites Page displays the recently viewed files and click on Create New Composite 
+  ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/2bc7807f-fb57-4bd5-b023-0f9fa8033dcc)
 
-2.	Insert this code.
-``` abap
- DATA(params) = request->get_form_fields(  ).
- READ TABLE params REFERENCE INTO DATA(param) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
+4. You will be landed into New Composite designer page. In this example you will create a composite with Header with default title and description. 
+
+   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/cf4725ad-cc02-4bab-bc0c-73608fbfdc31)
+
+5. Drag and Drop Panel widget to the page.
+   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/d3b4e084-4f9d-4271-853e-833acc01a378)
+
+6. Re-size the panel to full page
+
+   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/0faefc06-f8fc-4015-8181-257df3c4702e)
+
+   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/fbae1f62-80f2-410c-a810-5398be93f9ae)
+
+7. Open the Right side Panel :
+   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/a20f4b0a-f2cd-402a-b3aa-7b7192280aa4)
+
+8. Change the background colour
+  ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/819566b4-e4b2-46ce-b688-9c0532ff2191)
+
+9.Insert Text Box: 
+  ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/fabeca7d-6e09-49c5-98a9-17a9afb60331)
+10. Change the Font Colour to whiteand add Text as **Title**
+  ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/c17802af-268d-4642-8e5a-50c9a10abc2c)
+
+11. Add Two more Text Boxes as Subtitle abd Descritpion
+  ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/e6854c5d-ae86-486d-b2a2-568895997058)
+
+12. Change the font text colour as white and adjust the font size accordingly.
+  ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/3c642d2e-9e0c-4de9-b26e-ac1f2b2eff36)
+
+13. Open the Left Side Panel --> Outline --> interface
+  ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/5e952f45-51da-41df-8cb5-7b4207ace5e9)
+
+14. Create following interfaces (Title, Subtitle, Description):
+
+   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/e9d0fdbc-29a1-4e34-943e-bff61caf1a40)
+
+  1. SetDescription and Create New Arguments as **Text**
+     ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/f96aec60-6828-48ad-8e98-087d779fd60f)
+     Add formula 
+  2. SetDescription and Create New Arguments as **Text**
+     ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/b3ec2692-60a9-40fc-bc29-88010e9f6eae)
+  3. SetTitle and Create New Arguments as **Text**
+  4. ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/cc1ec454-2349-4966-b076-fb2410954f38)
+
+15. Save the Composite
+   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/3417463e-9a6f-45f1-a0b5-801148122c8d)
+
+16. In DA161 Folder:
+    ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/fa9b6571-13a0-4472-9c9c-68662693ff1e)
+
+17. Now you can use this composite in Stories. Open the Exercise 4 story and click on edit
+    ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/1bd487c1-a490-42c6-860d-e22ef77c88b8)
+
+18. Expand the left side Panel, click on composites and click on Import Icon
+
+    ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/e0703be6-dcc4-4bf3-9d7c-d5a4dcb3bf40)
+
+
+19. Import the newly created composite : Header – composite 
+   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/dd87ce23-ee04-472c-8551-3ffa62ff7a63)
+
+20. Composite is imported sucessfully :
+![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/cd44a546-d0e3-4d23-9c32-d64137c04fea)
+
+21. Drag and Drop the composite :
+![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/99c87b3f-6826-4861-bfa1-f166aa15b3d3)
+![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/f77470f7-9e88-42ce-ba80-e8e5fd437916)
+
+22. Resize the coposite header to the top of the page.
+![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/3fbbe2dc-1e6d-40e4-b6a5-bc7df5c983c9)
+
+23. CLick on Outline :
+ ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/0bc6e64d-79f5-4def-a2ec-f5c06b0cdafb)
+
+24. Click on Formula of Page_1 and select Oninitialization 
+ ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/116448c4-3672-4ade-8b5d-576d9ffe18ed)
+
+25. Add the formula
+ ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/574220fe-4c51-49c6-83a2-9303a729cc96)
+
+26. Save the Story
+ ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/85b47775-97ce-46a7-8ed5-ceabb9aa2e5c)
+
+27. Open the Story in New tab:
+ ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/36d6eed4-ef3d-4132-87ad-d0ca929b7416)
+
+28. Now you can see the Title, Subtitle and Description is updated.
+  ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/607f198f-4f9b-415d-afc4-e5ba3e9c4841)
+
 
 ## Summary
 
-Now that you have ... 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+**You have completed the Creation of Composite section!**
+
+**You are now able to:**
+* Understand how to Create and add Composites in a dashboard
+
+  Continue to - [Exercise 5 - Extend the Dashboard with Scripting](../ex5/README.md)
