@@ -113,13 +113,41 @@ You can create a copy of the story TBD and Open in Edit Mode
 
 🚩Let's group few widgets into this lane, 
 
-3. move "Gross Margin per Sales Manager" and "Gross Margin per Product, Workout Usage"
+3. Move "Gross Margin per Sales Manager" and "Gross Margin per Product, Workout Usage"
    <img width="1671" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6e088f08-146c-4e45-96a7-2e766459525a">
 
 🚩We will see how the current story looks like one smaller devices
 
-4. Open the device list at the bottom
+4. Open the device list at the bottom and choose iOS Tablet
    <img width="1669" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/2320cd12-29d9-4e2a-bbc1-af095e8006a6">
+   <img width="1669" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/d04637bd-6497-4651-9fee-b554b9a6232f">
+
+A message appears to notify you about the unnsupported features on the device, some features aren't supported for specific iOS and Android devices.
+
+  <img width="1652" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/7789d6fe-3f04-49f1-8eec-5bc92c2f3e08">
+
+🚩We will now see how responsive rules can be set for the charts
+
+5. Select the lane for which you want to set the responsive rules, in our example its the newly added lane
+  <img width="1643" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/b592bca8-c605-4015-b8b3-7236f1b36295">
+  
+6. Click on the top icon to open the Builder panel which will show the Responsive Rule Configuration where you can set the position, size, and visibility of all the widgets in the lane for a specific device.
+   <img width="1670" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/417d76fe-e1ac-430c-9d99-510e298e4c6b">
+
+7. Activate the responsive rules configuration by toggling on the Activate button as below.
+   <img width="1670" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/631f71da-0056-4e3a-be84-d30ab112c9fd">
+
+8. Choose Widget Position as Free, which means widgets can be freely moved and stay in a specific position, irrespective of others and device types.
+   <img width="1669" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/fcaf0c90-9ac3-470e-8593-01f2d9454e06">
+
+9. Choose Add Widget
+  <img width="1671" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a829f93d-7cef-41b0-8296-4497cdc4a92a">
+
+10. Open the Set the widget width list
+    <img width="1667" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6a4bffd5-f227-4b1e-9529-f3efb0eb47f7">
+
+
+
 
 
 ## Summary
