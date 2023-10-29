@@ -111,6 +111,15 @@ You can create a copy of the story TBD and Open in Edit Mode
 2. you should be able to see the lane created below
    <img width="1664" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6da476a7-c0f3-4518-905d-1207fa2090d7">
 
+🚩Let's group few widgets into this lane, 
+
+3. move "Gross Margin per Sales Manager" and "Gross Margin per Product, Workout Usage"
+   <img width="1671" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6e088f08-146c-4e45-96a7-2e766459525a">
+
+🚩We will see how the current story looks like one smaller devices
+
+4. Open the device list at the bottom
+   <img width="1669" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/2320cd12-29d9-4e2a-bbc1-af095e8006a6">
 
 
 ## Summary
