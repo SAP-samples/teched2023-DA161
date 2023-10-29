@@ -5,16 +5,22 @@
 ## Exercise 2.1 Create Basic Calculations within Stories
 
 
-Objective: You should develop a basic understanding on how to create Customize your toolbar for various experiences of SAP Analytics Cloud Stories.
+Objective: Use the latest calculations available in SAP Analytics Cloud to expose additional information that was not available in your original data model. Understand the potential and workflow of blending models and creating calculations in our story.
 
 Estimated Time: 5 mins
 
-Exercise Description: You as a Dashabord designer want to control the toolbar experience for your end users, and having all the toolbar features is not really required for end users.
+Exercise Description: You have access to shipping information and financial sales data that with some common dimensions, including Order Number and Store Name. You need to create various calculated 
+dimensions, statistical aggregations, and blended visualizations to understand the effects of shipping times and impact of delivery delays on sales revenue..
 
 Key Features:
+- Create calculated dimensions with string functions to enhance your data
+- Understand how to blend data models by linking on common dimensions
+- Employ statistical calculations in aggregations of your data
+- Integrate calculation input controls to simulate values in your visualizations
 
 Define what view mode of the story you need to control for your end users view vs embed mode of your stories.
 Learn you to control the toolbar features via story settings.
+
 
 
 
