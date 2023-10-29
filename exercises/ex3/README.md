@@ -96,6 +96,19 @@ Key Features:
 - Adjust widgets position and size to specific devices
 - Hide widgets from a small devide
 
+
+ℹ️Exercise check! Creating responsive rules
+
+In this section we will learn more about how a story designer defines responsive rules so that the story can be adapted to different devices.
+
+You have already created a story and added widgets to a responsive page. Now you can use responsive rule to adjust their size and position to the device.
+
+You can create a copy of the story TBD and Open in Edit Mode
+
+1. To add a lane , Right click or Select ... and Add lane Down
+   <img width="1674" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/9c252959-2ca6-4e48-8543-abbf38568ee7">
+
+
 ## Summary
 
 Now that you have ... 
