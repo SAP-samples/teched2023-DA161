@@ -105,8 +105,12 @@ You have already created a story and added widgets to a responsive page. Now you
 
 You can create a copy of the story TBD and Open in Edit Mode
 
-1. To add a lane , Right click or Select ... and Add lane Down
+1. To add a lane , Right click or Select ... and Add lane Below
    <img width="1674" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/9c252959-2ca6-4e48-8543-abbf38568ee7">
+
+2. you should be able to see the lane created below
+   <img width="1664" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6da476a7-c0f3-4518-905d-1207fa2090d7">
+
 
 
 ## Summary
