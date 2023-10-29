@@ -26,7 +26,7 @@ Objective: Theme a dashboard for easier and a better look and feel.
 
 Estimated Time: 5 mins
 
-Exercise Description: You have created an analytics dashboard with visualizations that show variances and thresholds, you added interaction for our viewers, but before you share the dashboard with your colleagues at BestRun, you need to make sure your dashboard is not only insightful but also looks visually appealing.
+Exercise Description: You have created an analytics dashboard with visualizations that show variances and thresholds, you added interaction for our viewers, but before you share the dashboard with your colleagues, you need to make sure your dashboard is not only insightful but also looks visually appealing.
 
 Key Features:
 
@@ -34,6 +34,8 @@ Key Features:
 - Learn how to simplify your visualisations by hiding unnecessary information 
 - Learn how to add an image or a logo to your dashboard
 - Use Device Preview to preview your analytical content across various devices and screen sizes (i.e. Laptop, Tablet, Phone)
+
+🚩Please make a copy of the dashboard "Exercise 3.2 - Thresholds and Variances for Themes"
 
 ℹ️Exercise check! Does your dashboard look like this screenshot?  
 
@@ -43,42 +45,52 @@ In this section we will cover theme and styling options in SAP Analytics Cloud t
 
 🚩Story creators can quickly change styling options for an entire story in the story preferences. This enables users to quickly apply corporate themes and sync their styling across different dashboards. We will first apply color and table preferences in this menu. 
 
-1. Click **File**
+1. Click **Format**
 
-2. Click **Edit Story**
+  <img width="1652" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/bdc92891-db4e-4469-9a73-6721ad016e3e">
 
-3. Click **Preferences**
 
-![4-2](https://user-images.githubusercontent.com/92877810/138502906-29891dc3-b417-49b2-8e4c-fc2a9f314796.png)
+2. Click **Edit Preferences**
 
-ℹ️Welcome to Story Preferences! 
+ℹ️Welcome to Story Theme Preferences! 
   
-In story preferences, story creators can choose to set standard theme and styling options for their entire story. This enables the business user with ease in quickly styling their entire story. Creators can choose to apply story preference changes to all pages, lanes, and tiles or only to newly created pages, lanes, and tiles. 
+In story preferences, story creators can choose to set standard theme and styling options for their entire story. This enables the business user with ease in quickly styling their entire story.  
 
-![4-3](https://user-images.githubusercontent.com/92877810/138502911-4c22720b-3d64-4b1f-9997-ed14c1461a7c.png)
+<img width="1666" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/d701dc62-8ba9-43f4-9dcf-ee685a5aa803">
 
 
-🚩We want to apply this color palette to everything on our story, so we change the option to All. 
+🚩We want to apply Default Background Color for Responsive and Canvas Pages 
 
-4. Click **All pages, lanes, and titles**
+4. Click **Story Settings**
 
-![4-8](https://user-images.githubusercontent.com/92877810/138502923-cf9f2e30-0719-4a74-b50a-b7d594a1a01b.png)
+    <img width="1663" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/d0fa5f5f-a28e-4e6e-9015-30fea913cdc6">
 
-5. Scroll untill **Default Styling Template** is **Visible**
+5. Set Canvas and Responsive **Background Color** to grey for the story and save the theme.
+
+   <img width="1663" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a068ba3a-6f25-4d6e-bbee-dcd990c24448">
+
+6. Add a Canvas or Responsive Page to the story and see the effect of the theme changes.
+    <img width="1675" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/7e86533d-5901-4a04-acd6-66323d277008">
+
+🚩We want to apply Default styling template to tables in our stories
+
+7. Scroll untill **Default Styling Template** is **Visible** for tables
 
 🚩We can choose different styling templates for our charts and tables based on dashboard needs. In this instance, we want our tables to appear in report-styling. 
 
-6. Expand **Default Styling Template**
+8. Expand **Default Styling Template**
+    <img width="1644" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/d600d9f1-decf-4dae-81f0-5e3d4380adc1">
 
-7. Click **Report Styling**
+7. Click **Report Styling** and save the theme,
+    <img width="1654" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/3fc9a592-709f-4596-b704-9d9870371789">
 
-![4-9](https://user-images.githubusercontent.com/92877810/138502925-fc77e77c-b050-433b-81f5-76878444922f.png)
 
-
+Observe the tables in your dashboard will not have the reporting theme reflected.
 
 ## Summary
 
-Now that you have ... 
+Now with this exercise you would be able to get an understanding of working with theming scenario's for your specific stories.
+
 
 ## Exercise 3.3 Customize the Dashboard for a Mobile Device
 
@@ -96,6 +108,7 @@ Key Features:
 - Adjust widgets position and size to specific devices
 - Hide widgets from a small devide
 
+🚩You can create a copy of the story TBD and Open in Edit Mode
 
 ℹ️Exercise check! Creating responsive rules
 
