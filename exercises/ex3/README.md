@@ -143,14 +143,58 @@ A message appears to notify you about the unnsupported features on the device, s
 9. Choose Add Widget
   <img width="1671" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a829f93d-7cef-41b0-8296-4497cdc4a92a">
 
-10. Open the Set the widget width list
+10. Open the Set the widget width list and select Chart_1, set the grid position from top to 9 and press enter, change will be reflected.
     <img width="1667" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6a4bffd5-f227-4b1e-9529-f3efb0eb47f7">
 
+    <img width="1660" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/81f04a88-e70c-472d-9418-494ab7353512">
 
 
+11. Now change the device to small tablet
+    <img width="1677" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/53222eee-e009-488e-9749-0d23bd1cb91d">
 
+The responsive rules cascade down from larger to smaller devices. As there is no rule defined for small tablet, it now follows the one just defined for large tablet.
 
+12. To overide and define a different rule for small tablet, switch on _Activate_.
+
+    <img width="1671" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a5425ab5-d31a-42ba-8a67-c6f9dce1b9df">
+
+    
+13. For small tablet, you'd like to display the charts in an auto type of layout, choose _Auto-Flow_ , which means the widgets will be placed sequentiually.
+    <img width="1667" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/2b6af6a6-31f0-47cb-8b9b-b4066103d7ba">
+
+14. Choose Add Widget
+    <img width="1667" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/2af9a5e3-e5ad-4bfd-a0a1-2cb4d9187410">
+
+15. Open the Set the widget width list and select Chart_1, set the widget width to 25 and press enter, change will be reflected and the widget will be pushed to fill the widhth and other widget will be pushed down.
+    <img width="1661" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/f323b0f9-4a24-4fa6-8e36-80b743717fc0">
+
+16. Set the Widget width for each widget to 25 so other widgets in the lane also occupy the same width when added.
+    <img width="1666" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/42553867-33cb-41e7-8fec-49039ed91df4">
+
+17. Choose the right panel button to close it.
+    <img width="1660" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/5c3bd63b-2908-4616-8da9-0cc63d329ce8">
+
+18. You can also the do the same for a Large Phone scenario, where Each Widget is already defined with a responsive rule to occupy the full screen width.
+    <img width="1664" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/cf7b38e7-e875-48a6-b334-e3ed437febba">
+
+You can scroll down on the phone screen to check the presense of the other designed widgets being displayed sequentially and full screen width.
+
+🚩We will now see how to hide a widget when consuming over mobile devices
+
+19. Table is not a great use case of mobile screens so let's try to hide it for small phones.
+    <img width="1661" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/b0eb2c4f-a1cd-4393-9e0d-3545dcecbbf5">
+
+20. Select Lane in which we see the table, in our case it is Lane_3, Open the Builder panel with the button to enable the right panel.
+    <img width="1663" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/94202fe2-af96-48ff-908b-f07328eda9ef">
+
+21. You can now set the widget visibility for Table widget and say hide the widget by adding it from the list
+    <img width="1663" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/302fb2a7-9f13-466a-9daa-a1af481f441c">
+
+    You can see that the table is hidden from the display screen of small phone.
+
+    
 ## Summary
 
-Now that you have ... 
+Now with this exercise you would be able to get an understanding of applying responsive configurations when designing content for mobile devivces successfully.
+
 Continue to - [Exercise 4 - Exercise 4 Description](../ex4/README.md)
