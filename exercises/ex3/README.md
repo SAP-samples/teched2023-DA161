@@ -112,4 +112,4 @@ You can create a copy of the story TBD and Open in Edit Mode
 ## Summary
 
 Now that you have ... 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+Continue to - [Exercise 4 - Exercise 4 Description](../ex4/README.md)
