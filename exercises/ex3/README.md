@@ -22,18 +22,17 @@ Now that you have ...
 ## Exercise 3.2 Create a Theme (or Edit)
 
 
-Objective: Theme a dashboard for easier and a better look and feel.
+Objective: Theme a dashboard for easier and a better look and feel as per your organization standards
 
 Estimated Time: 5 mins
 
-Exercise Description: You have created an analytics dashboard with visualizations that show variances and thresholds, you added interaction for our viewers, but before you share the dashboard with your colleagues, you need to make sure your dashboard is not only insightful but also looks visually appealing.
+Exercise Description: You have created an analytics dashboard with visualizations that show variances and thresholds, but now you also need to make sure that the corporate styling is applied to the dashboards to achieve Organizatiion standards of theming.
 
 Key Features:
 
-- Learn about the styling panel and how to format your visualizations
-- Learn how to simplify your visualisations by hiding unnecessary information 
-- Learn how to add an image or a logo to your dashboard
-- Use Device Preview to preview your analytical content across various devices and screen sizes (i.e. Laptop, Tablet, Phone)
+- Learn about the setting default styling options to your storie pages.
+- Learn about setting widget specific styling options for your stories.
+
 
 🚩Please make a copy of the dashboard "Exercise 3.2 - Thresholds and Variances for Themes"
 
