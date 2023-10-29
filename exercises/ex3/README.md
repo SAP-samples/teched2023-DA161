@@ -1,3 +1,4 @@
+# Exercise 3 - Customize the View Time Experience with No Code Features and Formatting
 
 
 ## Exercise 3.1 View Time Toolbar Customization
