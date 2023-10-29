@@ -1,3 +1,8 @@
+	• View Time Toolbar Customization
+	• Create a Theme (or Edit)
+ • Customize the Dashboard for a Mobile Device
+
+
 # Level 1 Heading
 
 In this exercise, you will...
