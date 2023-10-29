@@ -1,29 +1,54 @@
-	• View Time Toolbar Customization
-	• Create a Theme (or Edit)
- • Customize the Dashboard for a Mobile Device
 
 
-# Level 1 Heading
+## Exercise 3.1 View Time Toolbar Customization
 
-In this exercise, you will...
 
-## Level 2 Heading
+Objective: You should develop a basic understanding on how to create Customize your toolbar for various experiences of SAP Analytics Cloud Stories.
 
-After completing these steps you will have....
+Estimated Time: 5 mins
 
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
+Exercise Description: You as a Dashabord designer want to control the toolbar experience for your end users, and having all the toolbar features is not really required for end users.
 
-2.	Insert this code.
-``` abap
- DATA(params) = request->get_form_fields(  ).
- READ TABLE params REFERENCE INTO DATA(param) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
+Key Features:
+
+Define what view mode of the story you need to control for your end users view vs embed mode of your stories.
+Learn you to control the toolbar features via story settings.
+
+## Summary
+
+Now that you have ... 
+
+## Exercise 3.2 Create a Theme (or Edit)
+
+
+Objective: You should develop a basic understanding on how to create Customize your toolbar for various experiences of SAP Analytics Cloud Stories.
+
+Estimated Time: 5 mins
+
+Exercise Description: You as a Dashabord designer want to control the toolbar experience for your end users, and having all the toolbar features is not really required for end users.
+
+Key Features:
+
+Define what view mode of the story you need to control for your end users view vs embed mode of your stories.
+Learn you to control the toolbar features via story settings.
+
+## Summary
+
+Now that you have ... 
+
+## Exercise 3.3 Customize the Dashboard for a Mobile Device
+
+
+Objective: You should develop a basic understanding on how to create Customize your toolbar for various experiences of SAP Analytics Cloud Stories.
+
+Estimated Time: 5 mins
+
+Exercise Description: You as a Dashabord designer want to control the toolbar experience for your end users, and having all the toolbar features is not really required for end users.
+
+Key Features:
+
+Define what view mode of the story you need to control for your end users view vs embed mode of your stories.
+Learn you to control the toolbar features via story settings.
 
 ## Summary
 
