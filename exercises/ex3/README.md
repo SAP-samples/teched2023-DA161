@@ -22,16 +22,59 @@ Now that you have ...
 ## Exercise 3.2 Create a Theme (or Edit)
 
 
-Objective: You should develop a basic understanding on how to create Customize your toolbar for various experiences of SAP Analytics Cloud Stories.
+Objective: Theme a dashboard for easier and a better look and feel.
 
 Estimated Time: 5 mins
 
-Exercise Description: You as a Dashabord designer want to control the toolbar experience for your end users, and having all the toolbar features is not really required for end users.
+Exercise Description: You have created an analytics dashboard with visualizations that show variances and thresholds, you added interaction for our viewers, but before you share the dashboard with your colleagues at BestRun, you need to make sure your dashboard is not only insightful but also looks visually appealing.
 
 Key Features:
 
-Define what view mode of the story you need to control for your end users view vs embed mode of your stories.
-Learn you to control the toolbar features via story settings.
+- Learn about the styling panel and how to format your visualizations
+- Learn how to simplify your visualisations by hiding unnecessary information 
+- Learn how to add an image or a logo to your dashboard
+- Use Device Preview to preview your analytical content across various devices and screen sizes (i.e. Laptop, Tablet, Phone)
+
+ℹ️Exercise check! Does your dashboard look like this screenshot?  
+
+In this section we will cover theme and styling options in SAP Analytics Cloud to tweak your story into a professional dashboard. 
+
+![4-1](https://user-images.githubusercontent.com/92877810/138502901-ddc92961-1536-4d94-9d3e-90061044aa91.png)
+
+🚩Story creators can quickly change styling options for an entire story in the story preferences. This enables users to quickly apply corporate themes and sync their styling across different dashboards. We will first apply color and table preferences in this menu. 
+
+1. Click **File**
+
+2. Click **Edit Story**
+
+3. Click **Preferences**
+
+![4-2](https://user-images.githubusercontent.com/92877810/138502906-29891dc3-b417-49b2-8e4c-fc2a9f314796.png)
+
+ℹ️Welcome to Story Preferences! 
+  
+In story preferences, story creators can choose to set standard theme and styling options for their entire story. This enables the business user with ease in quickly styling their entire story. Creators can choose to apply story preference changes to all pages, lanes, and tiles or only to newly created pages, lanes, and tiles. 
+
+![4-3](https://user-images.githubusercontent.com/92877810/138502911-4c22720b-3d64-4b1f-9997-ed14c1461a7c.png)
+
+
+🚩We want to apply this color palette to everything on our story, so we change the option to All. 
+
+4. Click **All pages, lanes, and titles**
+
+![4-8](https://user-images.githubusercontent.com/92877810/138502923-cf9f2e30-0719-4a74-b50a-b7d594a1a01b.png)
+
+5. Scroll untill **Default Styling Template** is **Visible**
+
+🚩We can choose different styling templates for our charts and tables based on dashboard needs. In this instance, we want our tables to appear in report-styling. 
+
+6. Expand **Default Styling Template**
+
+7. Click **Report Styling**
+
+![4-9](https://user-images.githubusercontent.com/92877810/138502925-fc77e77c-b050-433b-81f5-76878444922f.png)
+
+
 
 ## Summary
 
