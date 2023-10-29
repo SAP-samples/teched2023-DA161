@@ -2,9 +2,7 @@
 
 
 
-
-
-## Exercise 2.1 View Time Toolbar Customization
+## Exercise 2.1 Create Basic Calculations within Stories
 
 
 Objective: You should develop a basic understanding on how to create Customize your toolbar for various experiences of SAP Analytics Cloud Stories.
