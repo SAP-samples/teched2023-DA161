@@ -21,6 +21,8 @@ Key Features:
 
 <img width="1658" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/96bec9c5-5bd0-409e-a859-794f74b6cd99">
 
+ℹ️Welcome to Story Toolbar customization
+
 🚩We will first try working with the _View Time Settings for the ToolBar_.
 
 1. Open the Story and Open the Settings from the story toolbar as shown below.
@@ -31,11 +33,54 @@ Key Features:
 
     <img width="1664" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/bddedea9-544c-4cf2-bc23-47e90c5bc265">
 
-3. 
+🚩Now we can customize the quick access and submenus
 
+3. To add a quick access button to toolbar, choose New
+    <img width="1664" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/430c86de-e8c4-4ec7-a4de-60b288e69189">
+
+4. New button is added
+    <img width="1662" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/58552322-296c-48c4-9c63-c94e5a35c7f6">
+
+5. To add _Reset_ to the toolbar, drag and drop the _Reset_ icon to the new entry on the toolbar.
+    <img width="1659" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/0b317ba6-bfe9-4f00-81c4-4a13b1d74596">
+
+6. To remove _Edit Prompts_, hover your mouse pointer over the button and choose the X.
+    <img width="1267" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/71e08fc9-90c8-4f10-9928-1996fbb42d94">
+
+7. Open the _Share_ menu and choose _hide from Submenu_.
+    <img width="1276" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/85576d48-8fb5-4e4f-9c73-bae9d0030194">
+
+8. You can also customize the toolbar for _Present_ mode.
+    <img width="1658" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/1a861d0f-cad7-46a8-a268-5c7afd4886c7">
+
+9. Now Choose _Embed Mode_ .
+    <img width="1666" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/74f31c48-afc7-4ba2-ba5e-57ca2883adf4">
+
+10. To ensure that the toolbar is visible in embed mode, check the _Enable toolbar in embed mode_ is selected.
+    <img width="1663" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/f87322cc-fd44-4d49-8610-fa4e968d85fc">
+
+11. When you've finished customizing your toolbar, choose _Apply_.
+    <img width="1666" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/439f0126-23e9-4b37-8910-272853a86439">
+
+12. Now we Open the _View_ menu and select _Current Tab_.
+    <img width="1666" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/fde6deff-e9b5-4d48-97bd-55f2f8028a29">
+    <img width="1274" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/0fd1ffeb-91c1-439b-9d4d-32a729ae854c">
+
+13. Your customized toolbar is available.
+    <img width="1711" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/c6cd796b-42e5-46a3-a6ef-4b120c85249f">
+
+    <img width="1315" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/cc7eda7c-2b8b-4a92-a584-cdf567139163">
+
+14. No goto the _Edit_ mode.
+    <img width="1706" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/fdc82015-2347-4e3c-acce-88fe9765c211">
+
+    Note that the time toolbar settings only apply to the current story. You can continue to create your story and save the view time settings with it.
+    
 ## Summary
 
-Now that you have ... 
+Now you have successfully customized the view time toolbar, including the quick access mennu and submenu, for different modes. 
+
+
 
 ## Exercise 3.2 Create a Theme (or Edit)
 
