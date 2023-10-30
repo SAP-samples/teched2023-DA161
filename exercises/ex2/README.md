@@ -5,7 +5,7 @@
 ## Exercise 2.1 Create Basic Calculations within Stories
 
 
-Objective: Use the latest calculations available in SAP Analytics Cloud to expose additional information that was not available in your original data model. Understand the potential and workflow of blending models and creating calculations in our story.
+Objective: Use the latest calculations available in SAP Analytics Cloud to expose additional information that was not available in your original data model. Understand the potential and workflow of creating calculations in our story.
 
 Estimated Time: 5 mins
 
@@ -17,8 +17,6 @@ Key Features:
 - Employ statistical calculations in aggregations of your data
 - Integrate calculation input controls to simulate values in your visualizations
 
-Define what view mode of the story you need to control for your end users view vs embed mode of your stories.
-Learn you to control the toolbar features via story settings.
 
 
 
