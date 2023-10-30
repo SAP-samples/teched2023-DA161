@@ -12,8 +12,26 @@ Exercise Description: You as a Dashabord designer want to control the toolbar ex
 
 Key Features:
 
-Define what view mode of the story you need to control for your end users view vs embed mode of your stories.
-Learn you to control the toolbar features via story settings.
+- Define what view mode of the story you need to control for your end users view vs embed mode of your stories.
+- Learn you to control the toolbar features via story settings.
+- Configure the quick access menu of the view time toolbar.
+- Configure the submenu of the view time toolbar
+
+🚩Please make a copy of the dashboard "Exercise 3.1 - View Time Optimization"
+
+<img width="1658" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/96bec9c5-5bd0-409e-a859-794f74b6cd99">
+
+🚩We will first try working with the _View Time Settings for the ToolBar_.
+
+1. Open the Story and Open the Settings from the story toolbar as shown below.
+    <img width="1656" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/7dea9f5d-6bf7-403b-91e5-5bac6c2a08b6">
+
+2. Inside the Settings you will find the View Time Settings and click toolbar.
+    <img width="1273" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/75f7ed80-9d17-46ec-ae87-6edb0eff127f">
+
+    <img width="1664" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/bddedea9-544c-4cf2-bc23-47e90c5bc265">
+
+3. 
 
 ## Summary
 
