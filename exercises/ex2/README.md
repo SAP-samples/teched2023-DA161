@@ -18,7 +18,166 @@ Key Features:
 - Integrate calculation input controls to simulate values in your visualizations
 
 
+⚠️Exercise check! Does your dashboard look like this screenshot in Edit mode? 
 
+![8-11](https://user-images.githubusercontent.com/92877810/141006673-3826b6bd-9bf0-4d51-8424-7612626c6275.png)
+
+🚩When working with your data in SAP Analytics Cloud, you may find that you want to look at additional components to your data that are currently not captured by the existing measures and dimensions in the model. Luckily, story designers can extend the data models with additional calculated measures and dimensions. This enables the story creator to delve into further insights from their data. Let us start by creating a calculated dimension that divides the Store dimension in our data into Studios and Non-Studios. 
+
+13. Click **Gross Margin % for Actual** Chart
+
+![8-12](https://user-images.githubusercontent.com/92877810/141006677-0d6bbe2e-d1bf-43bb-9974-32056994bc67.png)
+
+14. Click **Designer**
+
+15. Click **+ Add Dimension**
+
+![8-13](https://user-images.githubusercontent.com/92877810/141006679-c4ddfcc8-ad52-4ed0-acf1-f4c75a6b601d.png)
+
+16. Scroll and Click **+ Create Calcluated Dimension...**
+
+![8-14](https://user-images.githubusercontent.com/92877810/141006681-e1068697-44ba-4718-99b7-83fb9ee468da.png)
+
+ℹ️Welcome to Calculated Dimensions!  
+  
+Calculated Dimensions are useful when you want to enrich your dimension if your model does not have the needed format. 
+ 
+You can choose to combine existing dimensions to create your own dimensions. There are two calculated dimensions that can be created: 
+  
+**Calculated Dimension:** Use formulas to create new dimension members 
+  
+**Measure Based Dimension:** Use ranges within an existing measure to determine how to group 
+dimension members together 
+
+![8-15](https://user-images.githubusercontent.com/92877810/141006683-1dac0f5e-40f5-42b1-9448-84903c584235.png)
+
+🚩As we want to identify the stores that are studios, we will use the regular calculated dimension. 
+
+17. Click **Calculated DImension**
+
+![8-16](https://user-images.githubusercontent.com/92877810/141006684-629e5566-31ab-4431-afcd-6fc004c70b94.png)
+
+🚩The formula field for Calculated Dimensions uses conditional logic and function formulas to create the Dimension rules. This offers the business analyst great flexibility in defining new calculated dimensions. 
+
+18. Press **Ctrl + Space** on the Keyboard
+
+![8-17](https://user-images.githubusercontent.com/92877810/141006687-22d5b394-0876-4870-a982-91d0838a5f94.png)
+
+19. Click IF
+
+🚩Our IF statement has three fields. The first field is used as a condition that evaluates to true or false. The second field is the Dimension value if True and the third field is the Dimension value if False. 
+
+![8-18](https://user-images.githubusercontent.com/92877810/141006690-43289132-1d4a-4003-9185-c48ed9272b85.png)
+
+20. Click the **Condition (First Field)** in the IF Formula
+
+![8-19](https://user-images.githubusercontent.com/92877810/141006691-5ff882ef-e972-42a5-8b2b-df41ecf3f497.png)
+
+21. Press **Ctrl + Space** on the Keyboard
+  
+💡Using Ctrl + Space is a great way to learn how to use the Calculation Editor. Using this hotkey combination will always bring up all possible functions and measures/dimensions that can be typed into the according field for the ease of the user. 
+
+![8-20](https://user-images.githubusercontent.com/92877810/141006692-1b3a8569-4491-4d14-b203-2fc7918a041b.png)
+
+ℹ️Welcome to String Functions in the Calculation Editor! There are a variety of different String Functions that can be used to transform the Dimension values to a specific use case. 
+  
+**FINDINDEX:** Search for a substring and return its 0 based index 
+**ENDSWITH:** Returns True if given string ends with user given substring 
+**TRIM:** Removes unwanted leading and trailing spaces 
+**REPLACE:** Replace characters in a string with a specified replacement 
+**SPLIT:** Returns substring from a string using a specified divider 
+**UPPERCASE/LOWERCASE:** Convert a string to all Lower or all Upper case 
+**CONCAT:** Combine two strings together 
+**LEFT/RIGHT:** Returns the specified number of characters from the beginning or end of a string 
+  
+Let us use RIGHT function to categorize Stores by if they are a Studio. 
+
+22. Scroll till **RIGHT** is **Visible**
+
+23. Click **RIGHT**
+
+![8-21](https://user-images.githubusercontent.com/92877810/141006695-8a2018bd-3e34-455f-a47c-e8fd45b3c6dd.png)
+
+🚩Here we are specifying the Dimension we are reading our string from
+
+24. Type **St** in the **First Input Field** for **RIGHT**
+
+25. Click **Store**
+
+![8-22](https://user-images.githubusercontent.com/92877810/141006697-d73c223a-8627-4d41-a7a0-3a9ce1a7198a.png)
+
+ℹ️Since Dimensions often have an ID and 
+Description, it is important to clarify that we are looking to parse the Store name from description here. 
+
+26. Type in a **Period "."**
+
+27. Press **Ctrl + Space** on the keyboard
+
+28. Click **Description**
+
+![8-23](https://user-images.githubusercontent.com/92877810/141006698-bc5592b2-9763-471b-980f-fd1b0530659f.png)
+
+🚩We know we are trying to divide our Store dimension into Studios and Non-Studio. Since we are looking for "Studio" at the end of store name, we know we should filter on 6 characters using our RIGHT string function. 
+
+29. Type **"6"** in the **Second Input Field** for the **RIGHT** Function
+
+![8-24](https://user-images.githubusercontent.com/92877810/141006700-9275c240-e159-478e-b613-2334cb849a77.png)
+
+🚩Let us compare the last 6 letters of our store name with Studio to group them into two Store Groups. 
+
+30. Type in =**"Studio"** following the RIGHT formula
+
+31. Type in **"Studio"** in the **TRUE** Field for the IF Function
+
+32. Type in **"Non-Studio"** in the **FALSE** Field for the  IF Function
+
+![8-25](https://user-images.githubusercontent.com/92877810/141006702-74aad9f1-5737-44d0-81ed-cb6481387cdc.png)
+
+⚠️Quality Check! Does the end of your formula look like this? 
+
+![8-26](https://user-images.githubusercontent.com/92877810/141006703-ac58bbb8-b21d-4bdd-8e61-bc4147c337ea.png)
+
+🚩Format will parse your Formula and identify if there are any problems with the input parameters. 
+
+33. Click **Format** to Validate the Formula
+  
+🚩Great! Our formula is valid and good for use in defining a new Calculated Dimension. Let us name this Dimension and use it in our charts. 
+
+![8-27](https://user-images.githubusercontent.com/92877810/141006705-223073c3-2bf1-4b4e-801a-4a3b5d499aee.png)
+
+34. Name the Calculated Dimension as **Store Group**
+
+35. Click **OK**
+
+![8-28](https://user-images.githubusercontent.com/92877810/141006707-c60f5381-be9e-463d-9a82-5e7b37d045dc.png)
+
+⚠️Quality check! Does your chart look like this after including your Calculated Dimension? 
+
+🚩By creating a Calculated Dimension, we are able extract further insights from our data. We can now see that Gross Margin % is higher for Studios than other stores. This could be of interest to us for further financial analysis and investments. 
+
+![8-29](https://user-images.githubusercontent.com/92877810/141006708-2ba13a1f-b302-4b12-b4f3-1ba783cbf162.png)
+
+🚩Let us use our new Calculated Dimension to find out the split of Average Sales Revenue by Store Group. 
+
+36. Click Avg Sales Revenue for Actual Chart
+
+![8-30](https://user-images.githubusercontent.com/92877810/141006711-b0215de9-3334-4faa-93ce-1087c3755f0b.png)
+
+37. Click **+ Add Dimension** 
+
+![8-31](https://user-images.githubusercontent.com/92877810/141006713-6fc3679d-96a2-4405-b87e-2f0bc6de0f0d.png)
+
+38. Scroll and Click **Store Group**
+
+39. Click Inside the Builder Panel to Collapse the Dimension Selection Drop Down Menu 
+
+![8-32](https://user-images.githubusercontent.com/92877810/141006714-7dfdceba-e915-40a4-99f5-bd6b0c3de334.png)
+
+⚠️Quality check! Do your charts look like this screenshot? 
+  
+🚩We can now see that Avg Sales Revenue is also higher for Studio Stores. It could be a good business decision to change our contract structure with our Studio Stores! 
+
+![8-33](https://user-images.githubusercontent.com/92877810/141006715-991c052d-6d0b-4758-9789-ae58619b8d1e.png)
 
 
 
