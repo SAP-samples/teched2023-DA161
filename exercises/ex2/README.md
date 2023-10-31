@@ -214,82 +214,60 @@ Key Features:
 
 Define variances in our charts
 
+🚩Please make a copy of the dashboard "Exercise 2.2 and 2.3 - Thresholds and Variances"
 
-![3-21](https://user-images.githubusercontent.com/92877810/138261811-ccb46f24-2b2e-44cd-bc9f-65e5babceb12.png)
+
+<img width="1668" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a04bd5f5-c39b-499a-aadf-bec105b785d0">
+
+Goto **EDIT** and **Open the right builder panel** using the icon
+
+<img width="1676" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/521476d7-71f2-424f-9980-8ecf974b94e3">
+
 
 🚩First, let us add a variance to our KPI for average sales revenue in stores so we can compare if average sales revenue has dropped this year relative to our previous year's performance. If you can recall, our KPIs currently have a 2021 time filter applied on them. 
 
-1. Right Click on the Avg Sales Revenue Chart to Open the Context Menu
+1. Click on the Avg Sales Revenue Chart
 
-2. Click Compare To
+2. Click _Add Variance_ as below or from Chart Add-Ons
 
-3. Click Previous Period
+  <img width="1665" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a43be9b8-9e69-4d65-8add-3f0069dec656">
+
+  <img width="1663" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/64341f48-1c0e-4520-83db-0429c5422855">
+
+
+4. Click _Add Version/Time_ and choose _Order Date_
+  <img width="1280" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/e065e8dc-c699-4041-a9cf-65d63a758553">
+
+
 
 🚩We want to compare our data in 2021 year to date with the calculation for the previous year. By comparing to previous period, SAC will automatically calculate this variance for us. 
 
-![3-22](https://user-images.githubusercontent.com/92877810/138261815-181434bd-67c1-4f37-b97e-b6319df2c378.png)
+<img width="1667" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/5f9684ce-be8c-4af7-8463-eaadd95f9d07">
 
-🚩After creating our variance, the absolute value may still be hard to contextually understand. We want to know the percentage difference so let us edit this variance. 
 
-![3-23](https://user-images.githubusercontent.com/92877810/138261816-7eaefbe5-59b2-4fe0-b0ae-aa4dd3d848a3.png)
+🚩After creating our variance, the absolute value may still be hard to contextually understand. We want to know the percentage difference so let us apply _Percentage Display Optio_n to  this variance. 
 
-4. Click **1 Variance**
+5. From the builder panel under display options choose _Percentage_ and uncheck _numeric_
 
-5. Click **Edit All Measures in Use**
 
-![3-24](https://user-images.githubusercontent.com/92877810/138261817-c5304eab-976e-4c15-b1dc-fcd2913ff093.png)
+<img width="1677" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/1d7b5490-26a1-4abb-911f-f3509445ab61">
 
-🚩In this panel, users can choose how they want to format their variances to best fit their data. We are comparing a KPI across two periods using a single number. In this instance, a percentage would be easier to understand for an end user. 
 
-6. Click **Percentage**
+Our chart is now enhanced to show variance display to previuos period.
 
-7. Deselect **Numbers**
+6. Click _Done_ to close the Variance Edit panel.
 
-8. Click on **Avg Sales Revenue for Actual** to Collapse the Variance Panel
+<img width="1677" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/19d36de5-09fc-4434-b79b-0caf4c6ba96b">
 
-![3-25](https://user-images.githubusercontent.com/92877810/138261818-9c84e36a-6eeb-45ff-a5db-4a508521d031.png)
+7. Close the Builder Panel _Save_ your story
 
-🚩The new variance looks great! We can now clearly see that average sales revenue in our stores has experienced a 3.7% drop from the last period. 
+   <img width="1665" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a09df8a2-8925-4c04-b5f2-a4aae229117d">
 
-![3-26](https://user-images.githubusercontent.com/92877810/138261820-4d487ce7-79be-4bd8-ab9a-53445779ee16.png)
-
-🚩Now let’s add more variances to our chart. A good candidate to track change in data over time is our chart using a time dimension. SAC offers recommended comparisons in the builder panel as a suggestion for easy creation of variances. 
-
-9. Select your **Gross Margin per Order Date for Actual** Chart
-
-🚩We want to select Previous Period because it will dynamically change the variance based on the granularity in the chart. 
-
-10. Expand **Recommened Comparisons**
-
-11. Click **Previous Period**
-
-![3-27](https://user-images.githubusercontent.com/92877810/138261821-154f9835-dac8-4f7a-9d40-d52f19f718a8.png)
-
-🚩Our variances show the delta to the period before, in this case the last month's gross margin. We want to know the percentage difference instead of absolute difference. Let us change the formatting of our variance values. 
-
-![3-28](https://user-images.githubusercontent.com/92877810/138261822-434fb259-be1f-43b8-8ddf-a193366b87f5.png)
-
-12. Scroll to the Bottom of the Builder Panel
-
-13 Click **Edit** for the Variance **All Measure in Use (Previous Period)**
-
-![3-29](https://user-images.githubusercontent.com/92877810/138261823-27ca40d7-c623-4e1e-abe8-c71544e5991d.png)
-
-14. Expand **Display Options**
-
-15. Scroll to the Bottom of the Builder Panel
-
-16. Click **Percentage**
-
-17. Deselect **Numeric**
-
-18. Click **OK**
-
-![3-30](https://user-images.githubusercontent.com/92877810/138261824-2f15a39e-296d-4582-9601-a83dc45fb56f.png)
 
 ⚠️Quality check! Have your variances in the chart updated to percentage values? Please note your data will look different due to the dynamic time filter on the chart
 
-![3-31](https://user-images.githubusercontent.com/92877810/138261825-3b5fffe4-a935-4968-b6ff-e73fe5248003.png)
+<img width="1706" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/b6c538e5-27f3-4c3d-a477-40392bfd31cb">
+
 
 
 
