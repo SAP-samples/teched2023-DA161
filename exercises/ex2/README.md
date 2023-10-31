@@ -277,39 +277,42 @@ Key Features:
 
 🚩Open Story in Edit mode
 
-<img width="1662" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/4669b512-19bf-492e-b43b-8eed9eb36087">
+<br>![](/exercises/ex2/images/ex23_a.png)<br><br><br>
 
 🚩We would like to create threshold for the Table as highlighted
 
 
 1. Click on the Right panel Icon to open the Builder panel
-<img width="1657" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/8c036706-c1a3-4ef7-a922-3be8891d832b">
+
+<br>![](/exercises/ex2/images/ex23_1.png)<br><br><br>
 
 
 2. Click on the Account under the **Columns** and Select Thresholds -> New Threshold
 
-   <img width="1276" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/eda4e63f-9b96-4584-9cd5-6335a9dc6b88">
+   <br>![](/exercises/ex2/images/ex23_2.png)<br><br><br>
 
-  <img width="1280" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6b5c547d-f4d0-4779-890e-83f766499610">
+  <br>![](/exercises/ex2/images/ex23_2_1.png)<br><br><br>
 
 
 3. In the _Threshold_ Panel Select _Measure_ as _Gross Margin %_
-  <img width="1267" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/75d6b5e0-0315-4061-a9fc-b4a492d68fcd">
+
+<br>![](/exercises/ex2/images/ex23_3.png)<br><br><br>
 
 4. We can now define the _threshold_ as a _Number Range_ for _Gross Margin %_ .
 
 5. Add the Value 30 for _Gross Margin %_ >= scenario so that its indicated as green in the table cells.
-  <img width="1675" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/ce82095f-6f69-47b9-9a0a-c9df734783d1">
+
+<br>![](/exercises/ex2/images/ex23_5.png)<br><br><br>
 
 6. Click _Apply_.
 
-   <img width="1675" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a4bd39cf-4a67-4c0d-9b7c-1cff90199324">
+   <br>![](/exercises/ex2/images/ex23_6.png)<br><br><br>
 
 
   
-8. Save your Story and see that Gross Margin% is now shown in green for % >=30%
+7. Save your Story and see that Gross Margin% is now shown in green for % >=30%
 
-   <img width="244" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/3a837e22-7dae-4caa-ad13-9606a907e528">
+   <br>![](/exercises/ex2/images/ex23_7.png)<br><br><br>
 
 
 
@@ -319,8 +322,7 @@ Key Features:
 
 ⚠️Quality Check! Does your dashboard with thresholds look like this screenshot? 
 
-<img width="1706" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/8005b3d2-b67a-4509-8154-2c15a99c1dbb">
-
+<br>![](/exercises/ex2/images/ex23_7_2.png)<br><br><br>
 
 ## Summary
 
