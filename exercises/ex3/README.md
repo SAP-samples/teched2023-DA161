@@ -103,13 +103,13 @@ Key Features:
 
 In this section we will cover theme and styling options in SAP Analytics Cloud to tweak your story into a professional dashboard. 
 
-![4-1](https://user-images.githubusercontent.com/92877810/138502901-ddc92961-1536-4d94-9d3e-90061044aa91.png)
+ <br>![](/exercises/ex3/Images/32img1.png)<br><br><br>
 
 🚩Story creators can quickly change styling options for an entire story in the story preferences. This enables users to quickly apply corporate themes and sync their styling across different dashboards. We will first apply color and table preferences in this menu. 
 
 1. Click **Format**
 
-  <img width="1652" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/bdc92891-db4e-4469-9a73-6721ad016e3e">
+  <br>![](/exercises/ex3/Images/32img2.png)<br><br><br>
 
 
 2. Click **Edit Preferences**
@@ -118,21 +118,21 @@ In this section we will cover theme and styling options in SAP Analytics Cloud t
   
 In story preferences, story creators can choose to set standard theme and styling options for their entire story. This enables the business user with ease in quickly styling their entire story.  
 
-<img width="1666" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/d701dc62-8ba9-43f4-9dcf-ee685a5aa803">
+<br>![](/exercises/ex3/Images/32img3.png)<br><br><br>
 
 
 🚩We want to apply Default Background Color for Responsive and Canvas Pages 
 
 4. Click **Story Settings**
 
-    <img width="1663" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/d0fa5f5f-a28e-4e6e-9015-30fea913cdc6">
+   <br>![](/exercises/ex3/Images/32img4.png)<br><br><br>
 
 5. Set Canvas and Responsive **Background Color** to grey for the story and save the theme.
 
-   <img width="1663" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a068ba3a-6f25-4d6e-bbee-dcd990c24448">
+  <br>![](/exercises/ex3/Images/32img5.png)<br><br><br>
 
 6. Add a Canvas or Responsive Page to the story and see the effect of the theme changes.
-    <img width="1675" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/7e86533d-5901-4a04-acd6-66323d277008">
+    <br>![](/exercises/ex3/Images/32img6.png)<br><br><br>
 
 🚩We want to apply Default styling template to tables in our stories
 
@@ -141,10 +141,10 @@ In story preferences, story creators can choose to set standard theme and stylin
 🚩We can choose different styling templates for our charts and tables based on dashboard needs. In this instance, we want our tables to appear in report-styling. 
 
 8. Expand **Default Styling Template**
-    <img width="1644" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/d600d9f1-decf-4dae-81f0-5e3d4380adc1">
+   <br>![](/exercises/ex3/Images/32img7.png)<br><br><br>
 
 7. Click **Report Styling** and save the theme,
-    <img width="1654" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/3fc9a592-709f-4596-b704-9d9870371789">
+   <br>![](/exercises/ex3/Images/32img8.png)<br><br><br>
 
 
 Observe the tables in your dashboard will not have the reporting theme reflected.
