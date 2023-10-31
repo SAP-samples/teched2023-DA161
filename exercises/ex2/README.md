@@ -27,7 +27,7 @@ Key Features:
 
 1. Click **Gross Margin % for Actual** Chart
 
-  <img width="1666" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/473161fd-f821-4ae9-bb97-2240d430ae98">
+  <img width="1666" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/473161fd-f821-4ae9-bb97-2240d430ae98.png">
 
 
 2. Click **Edit** and Open **Right Panel**
