@@ -143,53 +143,62 @@ Let us use RIGHT function to categorize Stores by if they are a Studio.
 
 20. Type in **"Non-Studio"** in the **FALSE** Field for the  IF Function
 
-![8-25](https://user-images.githubusercontent.com/92877810/141006702-74aad9f1-5737-44d0-81ed-cb6481387cdc.png)
+<img width="1657" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/e60305b9-d77c-425f-afb0-e6dbd33675f8">
+
 
 ⚠️Quality Check! Does the end of your formula look like this? 
 
-![8-26](https://user-images.githubusercontent.com/92877810/141006703-ac58bbb8-b21d-4bdd-8e61-bc4147c337ea.png)
+<img width="1657" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/40d4a3d5-2ebb-46d7-9e4c-3cf29597f7ce">
+
 
 🚩Format will parse your Formula and identify if there are any problems with the input parameters. 
 
-33. Click **Format** to Validate the Formula
+21. Click **Format** to Validate the Formula
   
 🚩Great! Our formula is valid and good for use in defining a new Calculated Dimension. Let us name this Dimension and use it in our charts. 
 
-![8-27](https://user-images.githubusercontent.com/92877810/141006705-223073c3-2bf1-4b4e-801a-4a3b5d499aee.png)
+<img width="1662" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/edb7bdf4-7196-4062-8a77-e75aed219529">
 
-34. Name the Calculated Dimension as **Store Group**
 
-35. Click **OK**
+22. Name the Calculated Dimension as **Store Group**
 
-![8-28](https://user-images.githubusercontent.com/92877810/141006707-c60f5381-be9e-463d-9a82-5e7b37d045dc.png)
+23. Click **OK**
+
+<img width="1660" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/3d1de24c-6aa8-4036-b79c-57005c422959">
+
 
 ⚠️Quality check! Does your chart look like this after including your Calculated Dimension? 
 
 🚩By creating a Calculated Dimension, we are able extract further insights from our data. We can now see that Gross Margin % is higher for Studios than other stores. This could be of interest to us for further financial analysis and investments. 
 
-![8-29](https://user-images.githubusercontent.com/92877810/141006708-2ba13a1f-b302-4b12-b4f3-1ba783cbf162.png)
+<img width="1670" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/57b8f62c-60b2-4f55-8eb1-559aa19285c7">
+
 
 🚩Let us use our new Calculated Dimension to find out the split of Average Sales Revenue by Store Group. 
 
-36. Click Avg Sales Revenue for Actual Chart
+24. Click Avg Sales Revenue for Actual Chart
 
-![8-30](https://user-images.githubusercontent.com/92877810/141006711-b0215de9-3334-4faa-93ce-1087c3755f0b.png)
+<img width="1668" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/c2b445a4-5ad5-4df7-a1c8-57f979c7462d">
 
-37. Click **+ Add Dimension** 
 
-![8-31](https://user-images.githubusercontent.com/92877810/141006713-6fc3679d-96a2-4405-b87e-2f0bc6de0f0d.png)
+25. Click **+ Add Dimension** 
 
-38. Scroll and Click **Store Group**
+<img width="1664" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/9ab32975-4d60-400c-b8e0-d9faceabf0dd">
 
-39. Click Inside the Builder Panel to Collapse the Dimension Selection Drop Down Menu 
 
-![8-32](https://user-images.githubusercontent.com/92877810/141006714-7dfdceba-e915-40a4-99f5-bd6b0c3de334.png)
+26. Scroll and Click **Store Group**
+
+27. Click Inside the Builder Panel to Collapse the Dimension Selection Drop Down Menu 
+
+<img width="1663" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/45b46a66-cc4a-4e27-8ec7-a7a620e67bba">
+
 
 ⚠️Quality check! Do your charts look like this screenshot? 
   
 🚩We can now see that Avg Sales Revenue is also higher for Studio Stores. It could be a good business decision to change our contract structure with our Studio Stores! 
 
-![8-33](https://user-images.githubusercontent.com/92877810/141006715-991c052d-6d0b-4758-9789-ae58619b8d1e.png)
+<img width="868" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/65b4c53b-9eef-48e4-83fe-a3e1c623cf14">
+
 
 
 
