@@ -25,21 +25,22 @@ Key Features:
 
 🚩When working with your data in SAP Analytics Cloud, you may find that you want to look at additional components to your data that are currently not captured by the existing measures and dimensions in the model. Luckily, story designers can extend the data models with additional calculated measures and dimensions. This enables the story creator to delve into further insights from their data. Let us start by creating a calculated dimension that divides the Store dimension in our data into Studios and Non-Studios. 
 
-13. Click **Gross Margin % for Actual** Chart
+1. Click **Gross Margin % for Actual** Chart
 
   <img width="1666" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/473161fd-f821-4ae9-bb97-2240d430ae98">
 
 
-14. Click **Edit** and Open **Right Panel**
+2. Click **Edit** and Open **Right Panel**
 
-15. Click **+ Add Dimension**
+3. Click **+ Add Dimension**
 
   <img width="1669" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6cd84b04-00ab-425f-a14e-1a6240429539">
 
 
-16. Scroll and Click **+ Create Calcluated Dimension...**
+4. Scroll and Click **+ Create Calcluated Dimension...**
 
-![8-14](https://user-images.githubusercontent.com/92877810/141006681-e1068697-44ba-4718-99b7-83fb9ee468da.png)
+<img width="1665" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/c933d62a-2bf8-45c3-8545-cfed47bea050">
+
 
 ℹ️Welcome to Calculated Dimensions!  
   
@@ -49,38 +50,43 @@ You can choose to combine existing dimensions to create your own dimensions. The
   
 **Calculated Dimension:** Use formulas to create new dimension members 
   
-**Measure Based Dimension:** Use ranges within an existing measure to determine how to group 
-dimension members together 
+**Account Based Dimension:** Use ranges within an existing measure to determine how to group dimension members together 
 
-![8-15](https://user-images.githubusercontent.com/92877810/141006683-1dac0f5e-40f5-42b1-9448-84903c584235.png)
+<img width="1281" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/9b675538-547b-4b99-9eea-a68786211f43">
+
 
 🚩As we want to identify the stores that are studios, we will use the regular calculated dimension. 
 
-17. Click **Calculated DImension**
+5. Click **Calculated DImension**
 
-![8-16](https://user-images.githubusercontent.com/92877810/141006684-629e5566-31ab-4431-afcd-6fc004c70b94.png)
+<img width="1667" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6d3fcb05-392a-4612-9c0f-2a12055b3f5a">
+
 
 🚩The formula field for Calculated Dimensions uses conditional logic and function formulas to create the Dimension rules. This offers the business analyst great flexibility in defining new calculated dimensions. 
 
-18. Press **Ctrl + Space** on the Keyboard
+6. Press **Ctrl + Space** on the Keyboard
 
-![8-17](https://user-images.githubusercontent.com/92877810/141006687-22d5b394-0876-4870-a982-91d0838a5f94.png)
+<img width="1273" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/86fb099e-99c5-466b-a682-650f926aca66">
 
-19. Click IF
+
+7. Click IF
 
 🚩Our IF statement has three fields. The first field is used as a condition that evaluates to true or false. The second field is the Dimension value if True and the third field is the Dimension value if False. 
 
-![8-18](https://user-images.githubusercontent.com/92877810/141006690-43289132-1d4a-4003-9185-c48ed9272b85.png)
+<img width="1669" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/1eaecb10-b8e5-4187-9429-29027548be0a">
 
-20. Click the **Condition (First Field)** in the IF Formula
 
-![8-19](https://user-images.githubusercontent.com/92877810/141006691-5ff882ef-e972-42a5-8b2b-df41ecf3f497.png)
+8. Click the **Condition (First Field)** in the IF Formula
 
-21. Press **Ctrl + Space** on the Keyboard
+<img width="1128" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/799294db-4800-4c6a-9aff-22b36e2eeca8">
+
+
+9. Press **Ctrl + Space** on the Keyboard
   
 💡Using Ctrl + Space is a great way to learn how to use the Calculation Editor. Using this hotkey combination will always bring up all possible functions and measures/dimensions that can be typed into the according field for the ease of the user. 
 
-![8-20](https://user-images.githubusercontent.com/92877810/141006692-1b3a8569-4491-4d14-b203-2fc7918a041b.png)
+<img width="1278" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/756eeeba-5395-4c95-8479-18445931052e">
+
 
 ℹ️Welcome to String Functions in the Calculation Editor! There are a variety of different String Functions that can be used to transform the Dimension values to a specific use case. 
   
@@ -95,44 +101,47 @@ dimension members together
   
 Let us use RIGHT function to categorize Stores by if they are a Studio. 
 
-22. Scroll till **RIGHT** is **Visible**
+10. Scroll till **RIGHT** is **Visible**
 
-23. Click **RIGHT**
+11. Click **RIGHT**
 
-![8-21](https://user-images.githubusercontent.com/92877810/141006695-8a2018bd-3e34-455f-a47c-e8fd45b3c6dd.png)
+<img width="1277" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/3931b154-fe26-451c-b877-f3ad96268ee9">
+
 
 🚩Here we are specifying the Dimension we are reading our string from
 
-24. Type **St** in the **First Input Field** for **RIGHT**
+12. Type **St** in the **First Input Field** for **RIGHT**
 
-25. Click **Store**
+13. Click **Store**
 
-![8-22](https://user-images.githubusercontent.com/92877810/141006697-d73c223a-8627-4d41-a7a0-3a9ce1a7198a.png)
+<img width="1280" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/2925d9b0-cb35-4a4c-8af3-1618e1371427">
 
-ℹ️Since Dimensions often have an ID and 
-Description, it is important to clarify that we are looking to parse the Store name from description here. 
 
-26. Type in a **Period "."**
+ℹ️Since Dimensions often have an ID and Description, it is important to clarify that we are looking to parse the Store name from description here. 
 
-27. Press **Ctrl + Space** on the keyboard
+14. Type in a **Period "."**
 
-28. Click **Description**
+15. Press **Ctrl + Space** on the keyboard
 
-![8-23](https://user-images.githubusercontent.com/92877810/141006698-bc5592b2-9763-471b-980f-fd1b0530659f.png)
+16. Click **Description**
+
+<img width="1266" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/f4ffc6b6-1ba3-4283-9374-294ad3bed17c">
+
 
 🚩We know we are trying to divide our Store dimension into Studios and Non-Studio. Since we are looking for "Studio" at the end of store name, we know we should filter on 6 characters using our RIGHT string function. 
 
-29. Type **"6"** in the **Second Input Field** for the **RIGHT** Function
+17. Type **"6"** in the **Second Input Field** for the **RIGHT** Function
 
-![8-24](https://user-images.githubusercontent.com/92877810/141006700-9275c240-e159-478e-b613-2334cb849a77.png)
+<img width="1668" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/d46c3074-b235-418c-8ce7-d95134c8abfc">
+
 
 🚩Let us compare the last 6 letters of our store name with Studio to group them into two Store Groups. 
 
-30. Type in =**"Studio"** following the RIGHT formula
+18. Type in =**"Studio"** following the RIGHT formula
 
-31. Type in **"Studio"** in the **TRUE** Field for the IF Function
+19. Type in **"Studio"** in the **TRUE** Field for the IF Function
 
-32. Type in **"Non-Studio"** in the **FALSE** Field for the  IF Function
+20. Type in **"Non-Studio"** in the **FALSE** Field for the  IF Function
 
 ![8-25](https://user-images.githubusercontent.com/92877810/141006702-74aad9f1-5737-44d0-81ed-cb6481387cdc.png)
 
