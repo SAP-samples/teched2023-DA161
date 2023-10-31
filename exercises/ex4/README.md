@@ -24,7 +24,7 @@
 Create **Composites** 
 
 1. Navigate to SAC **HomePage**
-   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/80da7ab7-2943-4678-931b-72f22b1af7c0)
+   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/80da7ab7-2943-4678-931b-72f22b1af7c0.png)
 
 2.Navigate to stories and Click on Composites
    ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/13b90686-9d1c-4e4d-958a-bb9bfbd5517f)
