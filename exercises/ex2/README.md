@@ -273,7 +273,7 @@ Our chart is now enhanced to show variance display to previuos period.
 
 ## Exercise 2.3 Create a threshold
 
-Objective: Welcome to the Thresholds panel. 
+Objective: To be able to create thresholds based on ranges in our SAC story 
 
 Estimated Time: 5 mins
 
@@ -281,52 +281,46 @@ Exercise Description: You as a Dashboard Designer will be able to create Within 
 
 Key Features:
 
-Define thresholds in our charts
+- Define thresholds in our charts
+
+  
  
+🚩Please make a copy of the dashboard "Exercise 2.2 and 2.3 - Thresholds and Variances"
 
-1. In Threshold Panel, Click **Add Range**
+🚩Open Story in Edit mode
 
-![3-39](https://user-images.githubusercontent.com/92877810/138261836-4316999f-d492-4fdc-9ff9-9484a2f432d8.png)
+<img width="1662" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/4669b512-19bf-492e-b43b-8eed9eb36087">
 
-2. Enter 0 for the OK (Green) Min Range
+🚩We would like to create threshold for the Table as highlighted
 
-3. Enter 0 for the Warning (Yellow) Max Range
 
-![3-40](https://user-images.githubusercontent.com/92877810/138261837-a00d7b3c-1e41-4827-876d-eca788fb49c9.png)
+1. Click on the Right panel Icon to open the Builder panel
+<img width="1657" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/8c036706-c1a3-4ef7-a922-3be8891d832b">
 
-4. Expand the **Orange Indicator**
 
-5. Choose the **Red Indicator**
+2. Click on the Account under the **Columns** and Select Thresholds -> New Threshold
 
-6. Click **Apply**
+   <img width="1276" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/eda4e63f-9b96-4584-9cd5-6335a9dc6b88">
 
-![3-41](https://user-images.githubusercontent.com/92877810/138261839-55e6ab20-3a6d-4dba-9587-d14462d58392.png)
+  <img width="1280" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6b5c547d-f4d0-4779-890e-83f766499610">
 
-🚩Users can see by scrolling through the table that an appropriate indicator has been given to values in each threshold in the Delta column. 
+
+3. In the _Threshold_ Panel Select _Measure_ as _Gross Margin %_
+  <img width="1267" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/75d6b5e0-0315-4061-a9fc-b4a492d68fcd">
+
+4. We can now define the _threshold_ as a _Number Range_ for _Gross Margin %_ .
+
+5. Add the Value 30 for _Gross Margin %_ >= scenario so that its indicated as green in the table cells.
+  <img width="1675" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/ce82095f-6f69-47b9-9a0a-c9df734783d1">
+
+6. Click _Apply_.
+
+   <img width="1675" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a4bd39cf-4a67-4c0d-9b7c-1cff90199324">
+
+
   
-We would like to change how this value is displayed to only highlight the number rather than adding an indicator. 
+8. 
 
-![3-42](https://user-images.githubusercontent.com/92877810/138261840-30de12bd-f485-4d8d-99e6-b9915487e5e4.png)
-
-7. Click **Designer** to Open Builder Panel (in case not already open)
-
-8. Click **Styling**
-
-![3-43](https://user-images.githubusercontent.com/92877810/138261841-a745789d-f862-43a1-ba58-03c933ce00f0.png)
-
-ℹ️Welcome to the Styling Panel! 
-  
-The Styling Panel displays options available for the selected tile type. Some options may not be available to all users.  
-  
-For widget, you see only the styling options for the specific area that you have highlighted. The heading in the Styling Panel identifies the area. For example, it may show Title, Data Cell, Axis Labels, and so on. Selecting a different part of the widget changes the heading and the styling options. 
-
-![3-44](https://user-images.githubusercontent.com/92877810/138261842-9bb75e2e-26fb-4c78-87b7-622c4102c5b9.png)
-
-9. Expand **Threshold Style**
-
-10. Click **Color Values**
-
-![3-r](https://user-images.githubusercontent.com/92877810/140990851-e292bf04-dc4d-4420-8f0a-1cd29842ce50.png)
 
 🚩Thresholds in the table are now color coded instead of representation by a symbol indicator. 
 
