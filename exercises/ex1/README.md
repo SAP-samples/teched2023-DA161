@@ -234,13 +234,15 @@ Select keep Model as below
 
 ![image](https://user-images.githubusercontent.com/112718519/199613815-1e779afb-46ac-4cde-b43b-449690b65bc2.png)
 
-53. Click the **toggle** to enable the ability to include range up to the current period
+53. Click the **toggle** to enable the ability to include range up to the current period and select 1 under look back
 
-![image](https://user-images.githubusercontent.com/112718519/199614034-f482b8f0-7303-4e8a-95d4-1e256375c425.png)
+![image](https://github.com/SAP-samples/teched2023-DA161/assets/146422837/dc6df592-413f-4f4f-86e5-57f030c24754)
+
 
 54. Click **OK**
 
-![image](https://user-images.githubusercontent.com/112718519/199614073-9d2b0cd3-1cc0-4fc6-95cc-fcde0928564d.png)
+![image](https://github.com/SAP-samples/teched2023-DA161/assets/146422837/6e3bfa71-fa17-4be2-9c5b-735611f994b3)
+
 
 ⚠️**Quality Check!** Does your Chart look like this?
 
