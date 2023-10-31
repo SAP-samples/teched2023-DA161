@@ -319,18 +319,19 @@ Key Features:
 
 
   
-8. 
+8. Save your Story and see that Gross Margin% is now shown in green for % >=30%
+
+   <img width="244" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/3a837e22-7dae-4caa-ad13-9606a907e528">
 
 
-🚩Thresholds in the table are now color coded instead of representation by a symbol indicator. 
 
-![3-46](https://user-images.githubusercontent.com/92877810/138261844-ccf89b5c-0321-4451-aeed-29d15cd5418b.png)
+🚩Thresholds in the table are now color coded based on number range. 
 
-⚠️Quality Check! Does your dashboard with thresholds and variances look like this screenshot? 
 
-🚩Please save your story by pressing **Ctrl + S** on your keyboard! 
 
-![3-47](https://user-images.githubusercontent.com/92877810/138261847-1706de9d-af06-4c1b-8774-3a19f90ef649.png)
+⚠️Quality Check! Does your dashboard with thresholds look like this screenshot? 
+
+<img width="1706" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/8005b3d2-b67a-4509-8154-2c15a99c1dbb">
 
 
 ## Summary
