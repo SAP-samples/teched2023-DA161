@@ -27,13 +27,15 @@ Key Features:
 
 13. Click **Gross Margin % for Actual** Chart
 
-![8-12](https://user-images.githubusercontent.com/92877810/141006677-0d6bbe2e-d1bf-43bb-9974-32056994bc67.png)
+  <img width="1666" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/473161fd-f821-4ae9-bb97-2240d430ae98">
 
-14. Click **Designer**
+
+14. Click **Edit** and Open **Right Panel**
 
 15. Click **+ Add Dimension**
 
-![8-13](https://user-images.githubusercontent.com/92877810/141006679-c4ddfcc8-ad52-4ed0-acf1-f4c75a6b601d.png)
+  <img width="1669" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6cd84b04-00ab-425f-a14e-1a6240429539">
+
 
 16. Scroll and Click **+ Create Calcluated Dimension...**
 
