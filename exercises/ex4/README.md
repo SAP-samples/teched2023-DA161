@@ -129,28 +129,28 @@ Create **Composites**
 
 Create **Custom widget** 
 1. Click on the Custom widget Page:
-   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/0c79cc18-8293-462e-80cb-e5738965b305)
+    <br>![](/exercises/ex4/Images/CW1.png)<br><br><br>
   
 2.  Add a custom widget – Echarts Sankey styling V1.0.0:
-   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/49e38d49-863b-41ae-b180-41581ea384de)
+   <br>![](/exercises/ex4/Images/CW2.png)<br><br><br>
 
 3. Click on Right Panel :
-   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/618dd3a0-7804-46c9-aae6-b4b3238b9a71)
+   <br>![](/exercises/ex4/Images/CW3.png)<br><br><br>
 
 4. Navigate to Builder Panel :
-  ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/a0a5d959-b7e2-4df4-b7d7-fb4b95e713b9)
+  <br>![](/exercises/ex4/Images/CW4.png)<br><br><br>
 
 5. Click on Select model:
-  ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/85398aa7-3d4f-4802-a466-27299ac637b1)
+  <br>![](/exercises/ex4/Images/CW5.png)<br><br><br>
 
 6. Choose BestRunJuice_Sample Model:
-   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/2bc1cb70-7dde-4343-ace2-dd923d40d01a)
+   <br>![](/exercises/ex4/Images/CW6.png)<br><br><br>
    
 7. Add Gross Margin as Measure and Location in Dimension  
-   ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/85fe6e77-c925-48cb-9d1c-a0bfc5dc2c85)
+   <br>![](/exercises/ex4/Images/CW7.png)<br><br><br>
  
 8.Sankey chart is displayed for Gross Margin for different locations :
-  ![image](https://github.com/SAP-samples/teched2023-DA161/assets/146338540/7b1c577c-19c4-4865-8c73-db50e63f5e2a)
+  <br>![](/exercises/ex4/Images/CW8.png)<br><br><br>
 
 
 ## Summary
