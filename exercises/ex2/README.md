@@ -33,12 +33,11 @@ Key Features:
 
 3. Click **+ Add Dimension**
 
-  <img width="1669" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6cd84b04-00ab-425f-a14e-1a6240429539">
-
+  <br>![](/exercises/ex2/images/ex2_3)<br><br><br>
 
 4. Scroll and Click **+ Create Calcluated Dimension...**
 
-<img width="1665" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/c933d62a-2bf8-45c3-8545-cfed47bea050">
+<br>![](/exercises/ex2/images/ex2_4)<br><br><br>
 
 
 ℹ️Welcome to Calculated Dimensions!  
@@ -58,34 +57,31 @@ You can choose to combine existing dimensions to create your own dimensions. The
 
 5. Click **Calculated DImension**
 
-<img width="1667" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/6d3fcb05-392a-4612-9c0f-2a12055b3f5a">
-
+<br>![](/exercises/ex2/images/ex2_5)<br><br><br>
 
 🚩The formula field for Calculated Dimensions uses conditional logic and function formulas to create the Dimension rules. This offers the business analyst great flexibility in defining new calculated dimensions. 
 
 6. Press **Ctrl + Space** on the Keyboard
 
-<img width="1273" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/86fb099e-99c5-466b-a682-650f926aca66">
+<br>![](/exercises/ex2/images/ex2_6)<br><br><br>
 
 
 7. Click IF
 
 🚩Our IF statement has three fields. The first field is used as a condition that evaluates to true or false. The second field is the Dimension value if True and the third field is the Dimension value if False. 
 
-<img width="1669" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/1eaecb10-b8e5-4187-9429-29027548be0a">
-
+<br>![](/exercises/ex2/images/ex2_7)<br><br><br>
 
 8. Click the **Condition (First Field)** in the IF Formula
 
-<img width="1128" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/799294db-4800-4c6a-9aff-22b36e2eeca8">
+<br>![](/exercises/ex2/images/ex2_8)<br><br><br>
 
 
 9. Press **Ctrl + Space** on the Keyboard
   
 💡Using Ctrl + Space is a great way to learn how to use the Calculation Editor. Using this hotkey combination will always bring up all possible functions and measures/dimensions that can be typed into the according field for the ease of the user. 
 
-<img width="1278" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/756eeeba-5395-4c95-8479-18445931052e">
-
+<br>![](/exercises/ex2/images/ex2_8)<br><br><br>
 
 ℹ️Welcome to String Functions in the Calculation Editor! There are a variety of different String Functions that can be used to transform the Dimension values to a specific use case. 
   
@@ -104,8 +100,7 @@ Let us use RIGHT function to categorize Stores by if they are a Studio.
 
 11. Click **RIGHT**
 
-<img width="1277" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/3931b154-fe26-451c-b877-f3ad96268ee9">
-
+<br>![](/exercises/ex2/images/ex2_11)<br><br><br>
 
 🚩Here we are specifying the Dimension we are reading our string from
 
@@ -113,8 +108,7 @@ Let us use RIGHT function to categorize Stores by if they are a Studio.
 
 13. Click **Store**
 
-<img width="1280" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/2925d9b0-cb35-4a4c-8af3-1618e1371427">
-
+<br>![](/exercises/ex2/images/ex2_13)<br><br><br>
 
 ℹ️Since Dimensions often have an ID and Description, it is important to clarify that we are looking to parse the Store name from description here. 
 
@@ -124,15 +118,13 @@ Let us use RIGHT function to categorize Stores by if they are a Studio.
 
 16. Click **Description**
 
-<img width="1266" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/f4ffc6b6-1ba3-4283-9374-294ad3bed17c">
-
+<br>![](/exercises/ex2/images/ex2_16)<br><br><br>
 
 🚩We know we are trying to divide our Store dimension into Studios and Non-Studio. Since we are looking for "Studio" at the end of store name, we know we should filter on 6 characters using our RIGHT string function. 
 
 17. Type **"6"** in the **Second Input Field** for the **RIGHT** Function
 
-<img width="1668" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/d46c3074-b235-418c-8ce7-d95134c8abfc">
-
+<br>![](/exercises/ex2/images/ex2_17)<br><br><br>
 
 🚩Let us compare the last 6 letters of our store name with Studio to group them into two Store Groups. 
 
@@ -142,12 +134,11 @@ Let us use RIGHT function to categorize Stores by if they are a Studio.
 
 20. Type in **"Non-Studio"** in the **FALSE** Field for the  IF Function
 
-<img width="1657" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/e60305b9-d77c-425f-afb0-e6dbd33675f8">
-
+<br>![](/exercises/ex2/images/ex2_20)<br><br><br>
 
 ⚠️Quality Check! Does the end of your formula look like this? 
 
-<img width="1657" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/40d4a3d5-2ebb-46d7-9e4c-3cf29597f7ce">
+<br>![](/exercises/ex2/images/ex2_20_2)<br><br><br>
 
 
 🚩Format will parse your Formula and identify if there are any problems with the input parameters. 
@@ -156,40 +147,38 @@ Let us use RIGHT function to categorize Stores by if they are a Studio.
   
 🚩Great! Our formula is valid and good for use in defining a new Calculated Dimension. Let us name this Dimension and use it in our charts. 
 
-<img width="1662" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/edb7bdf4-7196-4062-8a77-e75aed219529">
-
+<br>![](/exercises/ex2/images/ex2_21)<br><br><br>
 
 22. Name the Calculated Dimension as **Store Group**
 
 23. Click **OK**
 
-<img width="1660" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/3d1de24c-6aa8-4036-b79c-57005c422959">
+<br>![](/exercises/ex2/images/ex2_23)<br><br><br>
 
 
 ⚠️Quality check! Does your chart look like this after including your Calculated Dimension? 
 
 🚩By creating a Calculated Dimension, we are able extract further insights from our data. We can now see that Gross Margin % is higher for Studios than other stores. This could be of interest to us for further financial analysis and investments. 
 
-<img width="1670" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/57b8f62c-60b2-4f55-8eb1-559aa19285c7">
+<br>![](/exercises/ex2/images/ex2_23_2)<br><br><br>
 
 
 🚩Let us use our new Calculated Dimension to find out the split of Average Sales Revenue by Store Group. 
 
 24. Click Avg Sales Revenue for Actual Chart
 
-<img width="1668" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/c2b445a4-5ad5-4df7-a1c8-57f979c7462d">
-
+<br>![](/exercises/ex2/images/ex2_24)<br><br><br>
 
 25. Click **+ Add Dimension** 
 
-<img width="1664" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/9ab32975-4d60-400c-b8e0-d9faceabf0dd">
+<br>![](/exercises/ex2/images/ex2_25)<br><br><br>
 
 
 26. Scroll and Click **Store Group**
 
 27. Click Inside the Builder Panel to Collapse the Dimension Selection Drop Down Menu 
 
-<img width="1663" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/45b46a66-cc4a-4e27-8ec7-a7a620e67bba">
+<br>![](/exercises/ex2/images/ex2_27)<br><br><br>
 
 
 ⚠️Quality check! Do your charts look like this screenshot? 
