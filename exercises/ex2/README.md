@@ -185,7 +185,7 @@ Let us use RIGHT function to categorize Stores by if they are a Studio.
   
 🚩We can now see that Avg Sales Revenue is also higher for Studio Stores. It could be a good business decision to change our contract structure with our Studio Stores! 
 
-<img width="868" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/65b4c53b-9eef-48e4-83fe-a3e1c623cf14">
+<br>![](/exercises/ex2/images/ex2_27_2.png)<br><br><br>
 
 
 
@@ -205,11 +205,11 @@ Define variances in our charts
 🚩Please make a copy of the dashboard "Exercise 2.2 and 2.3 - Thresholds and Variances"
 
 
-<img width="1668" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a04bd5f5-c39b-499a-aadf-bec105b785d0">
+<br>![](/exercises/ex2/images/ex22_a.png)<br><br><br>
 
 Goto **EDIT** and **Open the right builder panel** using the icon
 
-<img width="1676" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/521476d7-71f2-424f-9980-8ecf974b94e3">
+<br>![](/exercises/ex2/images/ex22_b.png)<br><br><br>
 
 
 🚩First, let us add a variance to our KPI for average sales revenue in stores so we can compare if average sales revenue has dropped this year relative to our previous year's performance. If you can recall, our KPIs currently have a 2021 time filter applied on them. 
@@ -218,19 +218,19 @@ Goto **EDIT** and **Open the right builder panel** using the icon
 
 2. Click _Add Variance_ as below or from Chart Add-Ons
 
-  <img width="1665" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a43be9b8-9e69-4d65-8add-3f0069dec656">
+<br>![](/exercises/ex2/images/ex22_2.png)<br><br><br>
 
-  <img width="1663" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/64341f48-1c0e-4520-83db-0429c5422855">
+<br>![](/exercises/ex2/images/ex22_3.png)<br><br><br>
 
 
 4. Click _Add Version/Time_ and choose _Order Date_
-  <img width="1280" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/e065e8dc-c699-4041-a9cf-65d63a758553">
+<br>![](/exercises/ex2/images/ex22_4.png)<br><br><br>
 
 
 
 🚩We want to compare our data in 2021 year to date with the calculation for the previous year. By comparing to previous period, SAC will automatically calculate this variance for us. 
 
-<img width="1667" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/5f9684ce-be8c-4af7-8463-eaadd95f9d07">
+<br>![](/exercises/ex2/images/ex22_4_2.png)<br><br><br>
 
 
 🚩After creating our variance, the absolute value may still be hard to contextually understand. We want to know the percentage difference so let us apply _Percentage Display Optio_n to  this variance. 
@@ -238,23 +238,23 @@ Goto **EDIT** and **Open the right builder panel** using the icon
 5. From the builder panel under display options choose _Percentage_ and uncheck _numeric_
 
 
-<img width="1677" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/1d7b5490-26a1-4abb-911f-f3509445ab61">
+<br>![](/exercises/ex2/images/ex22_5.png)<br><br><br>
 
 
 Our chart is now enhanced to show variance display to previuos period.
 
 6. Click _Done_ to close the Variance Edit panel.
 
-<img width="1677" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/19d36de5-09fc-4434-b79b-0caf4c6ba96b">
+<br>![](/exercises/ex2/images/ex22_6.png)<br><br><br>
 
 7. Close the Builder Panel _Save_ your story
 
-   <img width="1665" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/a09df8a2-8925-4c04-b5f2-a4aae229117d">
+<br>![](/exercises/ex2/images/ex22_7.png)<br><br><br>
 
 
 ⚠️Quality check! Have your variances in the chart updated to percentage values? Please note your data will look different due to the dynamic time filter on the chart
 
-<img width="1706" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/b6c538e5-27f3-4c3d-a477-40392bfd31cb">
+<br>![](/exercises/ex2/images/ex22_7_2.png)<br><br><br>
 
 
 
