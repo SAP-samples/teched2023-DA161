@@ -17,6 +17,7 @@ Key Features:
 - Employ statistical calculations in aggregations of your data
 - Integrate calculation input controls to simulate values in your visualizations
 
+🚩Please make a copy of the dashboard "Exercise 2.1 Create Basic Calculations within Stories"
 
 ⚠️Exercise check! Does your dashboard look like this screenshot in Edit mode? 
 
