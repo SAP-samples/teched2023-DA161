@@ -219,6 +219,10 @@ The color of the Chart is now changed to black for actual Gross Profit. This is 
 ![image](https://user-images.githubusercontent.com/112718519/199612802-bc96fc93-3d8c-4c0f-82ce-bd5ea9c15fe9.png)
 
 🚩 Press CTRL + S to save your story. 
+Select keep Model as below
+
+![image](https://github.com/SAP-samples/teched2023-DA161/assets/146422837/cc4af490-56e0-4127-ac01-583bc8b075bb)
+
 
 🚩 To ensure that we are comparing 22 Plan with 22 Actual instead of Actual financial data for all years, let's add a filter so that we are setting a date range for current year (2022) values through the current period.
 
