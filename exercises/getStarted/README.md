@@ -11,7 +11,7 @@
 - Create a copy of the starting dashboards to your local file repository
 
 ⚠️**Disclaimer**
-When completing exercises, some data values or sceenshots may not match what you see on your sceen. It is because the current exercise is based on a feature that is currently in BETA. 
+When completing exercises, some data values or sceenshots may not match what you see on your sceen. It is because the current exercise snapshot and data would have changed a bit while you are performing the excercise. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
