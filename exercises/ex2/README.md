@@ -50,7 +50,7 @@ You can choose to combine existing dimensions to create your own dimensions. The
   
 **Account Based Dimension:** Use ranges within an existing measure to determine how to group dimension members together 
 
-<img width="1281" alt="image" src="https://github.com/SAP-samples/teched2023-DA161/assets/146448346/9b675538-547b-4b99-9eea-a68786211f43">
+<br>![](/exercises/ex2/images/ex2_4_2.png)<br><br><br>
 
 
 🚩As we want to identify the stores that are studios, we will use the regular calculated dimension. 
