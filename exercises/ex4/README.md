@@ -28,36 +28,37 @@ Create **Composites**
 
 2.Navigate to stories and Click on Composites
  <br>![](/exercises/ex4/Images/4img2.png)<br><br><br>
-
 3. Composites Page displays the recently viewed files and click on Create New Composite 
  <br>![](/exercises/ex4/Images/4img3.png)<br><br><br>
 
 4. You will be landed into New Composite designer page. In this example you will create a composite with Header with default title and description. 
 
-  <br>![](/exercises/ex4/Images/4img4.png)<br><br><br>
+   <br>![](/exercises/ex4/Images/4img4.png)<br><br><br>
 
 5. Drag and Drop Panel widget to the page.
+
    <br>![](/exercises/ex4/Images/4img5.png)<br><br><br>
 
 6. Re-size the panel to full page
 
-  <br>![](/exercises/ex4/Images/4img6.png)<br><br><br>
+   <br>![](/exercises/ex4/Images/4img6.png)<br><br><br>
 
-  <br>![](/exercises/ex4/Images/4img7.png)<br><br><br>
+   <br>![](/exercises/ex4/Images/4img7.png)<br><br><br>
 
 7. Open the Right side Panel :
-  <br>![](/exercises/ex4/Images/4img8.png)<br><br><br>
+
+   <br>![](/exercises/ex4/Images/4img8.png)<br><br><br>
 
 8. Change the background colour
-  <br>![](/exercises/ex4/Images/4img9.png)<br><br><br>
 
+   <br>![](/exercises/ex4/Images/4img9.png)<br><br><br>
 9.Insert Text Box: 
-  <br>![](/exercises/ex4/Images/4img10.png)<br><br><br>
+   <br>![](/exercises/ex4/Images/4img10.png)<br><br><br>
  
 10. Change the Font Colour to white and add Text as **Title** and rename the ID as **Title**
   <br>![](/exercises/ex4/Images/4img11.png)<br><br><br>
 
-  <br>![](/exercises/ex4/Images/Title.png)<br><br><br>
+   <br>![](/exercises/ex4/Images/Title.png)<br><br><br>
 
 11. Add Two more Text Boxes as Subtitle and Descritpion. Rename the ID as **Subtitle** and **Description**
  <br>![](/exercises/ex4/Images/4img12.png)<br><br><br>
@@ -72,6 +73,7 @@ Create **Composites**
 13. Open the Left Side Panel --> **Outline** --> interface --> Functions -->click on Add script function 
   <br>![](/exercises/ex4/Images/4img14.png)<br><br><br>
 
+  <br>![](/exercises/ex4/Images/interface.png)<br><br><br>
   
 
 15. Create following interfaces (Title, setSubtitle, Description):
