@@ -54,11 +54,15 @@ Create **Composites**
 9.Insert Text Box: 
  <br>![](/exercises/ex4/Images/4img10.png)<br><br><br>
  
-10. Change the Font Colour to whiteand add Text as **Title**
+10. Change the Font Colour to white and add Text as **Title** and rename the ID as **Title**
   <br>![](/exercises/ex4/Images/4img11.png)<br><br><br>
 
-11. Add Two more Text Boxes as Subtitle abd Descritpion
+  
+
+11. Add Two more Text Boxes as Subtitle and Descritpion. Rename the ID as **Subtitle** and **Description**
  <br>![](/exercises/ex4/Images/4img12.png)<br><br><br>
+
+ 
 
 12. Change the font text colour as white and adjust the font size accordingly.
   <br>![](/exercises/ex4/Images/4img13.png)<br><br><br>
