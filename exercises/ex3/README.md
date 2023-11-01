@@ -17,7 +17,7 @@ Key Features:
 - Configure the quick access menu of the view time toolbar.
 - Configure the submenu of the view time toolbar
 
-🚩Please make a copy of the dashboard "Exercise 3.1 - View Time Optimization"
+🚩Please make a copy of the dashboard "Exercise 3.1 - View Time Optimization" if not done as part of getStarted
 
 <br>![](/exercises/ex3/Images/img1.png)<br><br><br>
 
@@ -96,7 +96,7 @@ Key Features:
 - Learn about setting widget specific styling options for your stories.
 
 
-🚩Please make a copy of the dashboard "Exercise 3.2 - Thresholds and Variances for Themes"
+🚩Please make a copy of the dashboard "Exercise 3.2 - Thresholds and Variances for Themes" if not done as part of getStarted
 
 ℹ️Exercise check! Does your dashboard look like this screenshot?  
 
@@ -146,7 +146,7 @@ In story preferences, story creators can choose to set standard theme and stylin
    <br>![](/exercises/ex3/Images/32img8.png)<br><br><br>
 
 
-Observe the tables in your dashboard will not have the reporting theme reflected.
+Observe the tables in your dashboard will have the reporting theme reflected in the table.
 
 ## Summary
 
