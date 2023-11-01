@@ -157,7 +157,7 @@ Let's resize and reposition the visualization for better readability.
 
 Note: if the chart is in blue then uncheck color by Account
 
-![image](https://github.com/SAP-samples/teched2023-DA161/assets/146422837/ae8a6778-8667-403a-91d0-4a265e23970a)
+br>![](/exercises/ex1/images/30_1.png)<br><br><br>
 
 ℹ️ International Business Communication Standards (IBCS)
 
