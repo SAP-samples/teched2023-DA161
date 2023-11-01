@@ -36,7 +36,7 @@ When completing exercises, some data values or screenshots may not match what yo
 
 5. Click on the **Left Side Panel** icon 
 
-![image](https://user-images.githubusercontent.com/112718519/198360800-154749b2-b098-47fe-b526-1001ae33651b.png)
+<br>![](/exercises/ex5/images/ex5.png)<br><br><br>
 
 6. **Click Outline**
 
