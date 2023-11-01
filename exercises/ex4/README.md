@@ -72,9 +72,12 @@ Create **Composites**
 
   14.1. SetDescription and Create New Arguments as **Text**
     <br>![](/exercises/ex4/Images/4img16.png)<br><br><br>
-     click on formula fx
+  
+  14.2. click on formula fx
+     
   14.2. SetDescription and Create New Arguments as **Text**
      <br>![](/exercises/ex4/Images/4img17.png)<br><br><br>
+     
   14.3. SetTitle and Create New Arguments as **Text**
      <br>![](/exercises/ex4/Images/4img18.png)<br><br><br>
 
