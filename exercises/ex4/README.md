@@ -76,9 +76,10 @@ Create **Composites**
 
   using Add Script function option, create three Script functions 
   <br>![](/exercises/ex4/Images/interface.png)<br><br><br>
-  
 
-15. Add two more script functions :
+  <br>![](/exercises/ex4/Images/Addscriptfunction.png)<br><br><br>
+
+15. Click on fx for function1 to edit scripts:
    
    <br>![](/exercises/ex4/Images/4img15.png)<br><br><br>
 
