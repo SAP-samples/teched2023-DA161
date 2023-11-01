@@ -97,7 +97,14 @@ Create **Composites**
    <br>![](/exercises/ex4/argumentText.png)<br><br><br>
 
   15.4 similarly edit other two Scriptfunctions function2 and function3 as SetDescription and SetsubTitle with New Arguments as **Text**
-    <br>![](/exercises/ex4/Images/4img16.png)<br><br><br>
+
+   <br>![](/exercises/ex4/Images/Allscriptfunctions.png)<br><br><br> 
+
+  15.5 click on formula fx for SetDescription :
+
+  
+   
+  
   
   14.2. click on formula fx
      
