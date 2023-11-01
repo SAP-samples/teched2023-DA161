@@ -177,7 +177,7 @@ In this section we will learn more about how a story designer defines responsive
 
 You have already created a story and added widgets to a responsive page. Now you can use responsive rule to adjust their size and position to the device.
 
-You can create a copy of the story TBD and Open in Edit Mode
+You can create a copy of the story "Exercise 3.3 - Mobile Responsive Design Rules" and Open in Edit Mode, if not done as part of getStarted
 
 1. To add a lane , Right click or Select ... and Add lane Below
    <br>![](/exercises/ex3/Images/33img1.png)<br><br><br>
