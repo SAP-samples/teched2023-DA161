@@ -4,7 +4,7 @@
 
 **Estimated Time:** 20 mins
 
-**Exercise Description:** In Exercise 4, our customers were able to extend the dashboard with No code features. while working through the Planning dashboard, they realized that they weren't sure what currency rates were being used for the calculations in the Financial Plan and Employee Plan. We want to provide them a better understanding of what those rates are by utilizing scripting capabilities in SAP Analytics Cloud.
+**Exercise Description:** In Exercise 4, our customers were able to extend the dashboard with No code features. while working through this dashboard, they realized that they weren't sure what currency rates were being used for the calculations in the Financial Plan and Employee Plan. We want to provide them a better understanding of what those rates are by utilizing scripting capabilities in SAP Analytics Cloud.
 
 **Key Features:**
 * Understand how to add a popup in a dashboard
@@ -12,11 +12,11 @@
 * Write scripts to open and close a popup 
 
 ⚠️**Disclaimer**
-When completing exercises, some data values or screenshots may not match what you see on your screen. It is because the current exercise is based on a feature that is currently in BETA. 
+When completing exercises, some data values or screenshots may not match what you see on your screen. 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-1. Click **Edit** 
+1. Open the Story **Exercise-5 Extend the Dashbord with scripting** and Click **Edit** 
 
 ![image](https://user-images.githubusercontent.com/112718519/198360329-af917931-431d-422c-8b1e-9d3bc1471293.png)
 
