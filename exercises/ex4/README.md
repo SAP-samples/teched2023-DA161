@@ -54,11 +54,12 @@ Create **Composites**
    <br>![](/exercises/ex4/Images/4img9.png)<br><br><br>
 9.Insert Text Box: 
    <br>![](/exercises/ex4/Images/4img10.png)<br><br><br>
- 
-10. Change the Font Colour to white and add Text as **Title** and rename the ID as **Title**
-  <br>![](/exercises/ex4/Images/4img11.png)<br><br><br>
 
-   <br>![](/exercises/ex4/Images/Title.png)<br><br><br>
+10.Change the Font Colour to white and add Text as **Title** and rename the ID as **Title**
+ 
+  <br>![](/exercises/ex4/Images/4img11.png)<br><br><br>
+  
+  <br>![](/exercises/ex4/Images/Title.png)<br><br><br>
 
 11. Add Two more Text Boxes as Subtitle and Descritpion. Rename the ID as **Subtitle** and **Description**
  <br>![](/exercises/ex4/Images/4img12.png)<br><br><br>
@@ -70,14 +71,15 @@ Create **Composites**
 12. Change the font text colour as white and adjust the font size accordingly.
   <br>![](/exercises/ex4/Images/4img13.png)<br><br><br>
 
-13. Open the Left Side Panel --> **Outline** --> interface --> Functions -->click on Add script function 
+13. Open the Left Side Panel --> **Outline** --> interface --> Functions
   <br>![](/exercises/ex4/Images/4img14.png)<br><br><br>
 
+  using Add Script function option, create three Script functions 
   <br>![](/exercises/ex4/Images/interface.png)<br><br><br>
   
 
-15. Create following interfaces (Title, setSubtitle, Description):
-
+15. Add two more script functions :
+   
    <br>![](/exercises/ex4/Images/4img15.png)<br><br><br>
 
   14.1. SetDescription and Create New Arguments as **Text**
