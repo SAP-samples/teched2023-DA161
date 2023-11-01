@@ -142,8 +142,8 @@ Create **Composites**
 15. Save the Composite
   <br>![](/exercises/ex4/Images/4img19.png)<br><br><br>
 
-16. In DA161 Folder:
-   <br>![](/exercises/ex4/Images/4img20.png)<br><br><br>
+16. In **MyFiles/Starting Dashboards** Folder:
+   <br>![](/exercises/ex4/Images/savecomp.png)<br><br><br>
 
 17. Now you can use this composite in Stories. Open the Exercise 4 story and click on edit
    <br>![](/exercises/ex4/Images/4img21.png)<br><br><br>
