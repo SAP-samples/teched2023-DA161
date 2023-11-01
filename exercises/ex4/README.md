@@ -83,19 +83,20 @@ Create **Composites**
    
    <br>![](/exercises/ex4/Images/4img15.png)<br><br><br>
 
-   15.1 Edit the Name of Scriptfunction function1 as **setTitle**
-    
- <br>![](/exercises/ex4/Images/SetTitle.png)<br><br><br>
+
+15.1 Edit the Name of Scriptfunction function1 as setTitle
+
+<br>![](/exercises/ex4/SetTitle.png)<br><br><br>
 
    15.2 Create a new Arguments  
 
-   <br>![](/exercises/ex4/Images/Argument.png)<br><br><br>
+   <br>![](/exercises/ex4/Argument.png)<br><br><br>
 
    15.3 Name the argument as **Text**
 
-   <br>![](/exercises/ex4/Images/argumentText.png)<br><br><br>
+   <br>![](/exercises/ex4/argumentText.png)<br><br><br>
 
-  14.1. SetDescription and Create New Arguments as **Text**
+  15.4 similarly edit other two Scriptfunctions function2 and function3 as SetDescription and SetsubTitle with New Arguments as **Text**
     <br>![](/exercises/ex4/Images/4img16.png)<br><br><br>
   
   14.2. click on formula fx
