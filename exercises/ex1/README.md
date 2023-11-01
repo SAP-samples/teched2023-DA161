@@ -157,7 +157,7 @@ Let's resize and reposition the visualization for better readability.
 
 Note: if the chart is in blue then uncheck color by Account
 
-br>![](/exercises/ex1/images/30_1.png)<br><br><br>
+<br>![](/exercises/ex1/images/30_1.png)<br><br><br>
 
 ℹ️ International Business Communication Standards (IBCS)
 
