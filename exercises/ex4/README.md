@@ -66,16 +66,16 @@ Create **Composites**
 13. Open the Left Side Panel --> Outline --> interface
   <br>![](/exercises/ex4/Images/4img14.png)<br><br><br>
 
-14. Create following interfaces (Title, Subtitle, Description):
+14. Create following interfaces (Title, setSubtitle, Description):
 
    <br>![](/exercises/ex4/Images/4img15.png)<br><br><br>
 
-  1. SetDescription and Create New Arguments as **Text**
+  14.1. SetDescription and Create New Arguments as **Text**
     <br>![](/exercises/ex4/Images/4img16.png)<br><br><br>
-     Add formula 
-  2. SetDescription and Create New Arguments as **Text**
+     click on formula fx
+  14.2. SetDescription and Create New Arguments as **Text**
      <br>![](/exercises/ex4/Images/4img17.png)<br><br><br>
-  3. SetTitle and Create New Arguments as **Text**
+  14.3. SetTitle and Create New Arguments as **Text**
      <br>![](/exercises/ex4/Images/4img18.png)<br><br><br>
 
 15. Save the Composite
