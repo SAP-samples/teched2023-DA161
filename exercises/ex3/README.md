@@ -63,7 +63,6 @@ Key Features:
   <br>![](/exercises/ex3/Images/img13.png)<br><br><br>
 
 12. Now we Open the _View_ menu and select _Current Tab_.
-    <br>![](/exercises/ex3/Images/img14.png)<br><br><br>
     <br>![](/exercises/ex3/Images/img15.png)<br><br><br>
 
 13. Your customized toolbar is available.
