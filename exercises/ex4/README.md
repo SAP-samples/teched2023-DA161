@@ -102,17 +102,42 @@ Create **Composites**
 
   15.5 click on formula fx for SetDescription :
 
+  <br>![](/exercises/ex4/Images/setDesFunc.png)<br><br><br> 
+
+  Add the below script:
+ 
+  **Description.applyText(Text);**
+ 
+  **Description.setVisible(true);**
   
+   <br>![](/exercises/ex4/Images/setDesFormula.png)<br><br><br> 
+  
+  15.6 click on formula fx for Setsubtitle :
+
+  <br>![](/exercises/ex4/Images/setsubtitleFunc.png)<br><br><br> 
+
+   Add the below script:
+  
+   **Subtitle.applyText(Text);**
    
+   **Subtitle.setVisible(true);**
+
+   <br>![](/exercises/ex4/Images/setsubtitleFormula.png)<br><br><br> 
   
+
+  15.7 click on formula fx for SetTitle :
+
+  <br>![](/exercises/ex4/Images/settitleFunc.png)<br><br><br> 
+
+   Add the below script:
+   
+  **Title.applyText(Text);**
   
-  14.2. click on formula fx
-     
-  14.2. SetDescription and Create New Arguments as **Text**
-     <br>![](/exercises/ex4/Images/4img17.png)<br><br><br>
-     
-  14.3. SetTitle and Create New Arguments as **Text**
-     <br>![](/exercises/ex4/Images/4img18.png)<br><br><br>
+  **Title.setVisible(true);**
+
+   <br>![](/exercises/ex4/Images/settitleFormula.png)<br><br><br> 
+
+  
 
 15. Save the Composite
   <br>![](/exercises/ex4/Images/4img19.png)<br><br><br>
