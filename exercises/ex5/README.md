@@ -64,7 +64,7 @@ When completing exercises, some data values or screenshots may not match what yo
 
 11. We want to resize the Popup in the Styling panel. Click the **Right Side Panel** icon to open the Styling panel. 
 
-![image](https://user-images.githubusercontent.com/112718519/198362025-553f51df-9746-44c5-a092-5d8f5ed1a7d5.png)
+<br>![](/exercises/ex5/images/ex11.png)<br><br><br>
 
 12. Once the panel opens, click the top right corner of the panel to switch from the Builder Panel to the Styling Panel
 
