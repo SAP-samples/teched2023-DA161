@@ -84,7 +84,7 @@ When completing exercises, some data values or screenshots may not match what yo
 
 16. Click the **Right Side Panel** icon to close the Styling panel
 
-![image](https://user-images.githubusercontent.com/112718519/198371687-a6b2fd8b-9bdf-46ce-a5c2-69ed40dd9292.png)
+<br>![](/exercises/ex5/images/ex16.png)<br><br><br>
 
 17. Now, we want to make sure that we have the ability to close the Employee Rates Table in the Popup via a Button. We will add a Button by clicking the **Add** icon in the top panel.
 
