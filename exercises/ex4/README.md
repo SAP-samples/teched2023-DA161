@@ -13,8 +13,8 @@
  **Composites:**
  A composite is a combination of widgets with configured data and scripting elements, which can be reused across optimized stories. It can be a unified corporate  
  header or footer, page navigation panel, collapsible section with visualizations, or chart with a button to switch to another chart type or table view. With 
- composites ready to be used in stories, story designers and developers spend less time building stories, and they can do further actions and customizations on the 
- composite as a whole as well, such as changing styling and adding scripts.
+ composites ready to be used in stories, story designers and developers spend less time building stories, and they can do further actions and customizations on 
+ the composite as a whole as well, such as changing styling and adding scripts.
  You can create a composite and then import and directly use it in your optimized story as other SAP Analytics Cloud built-in widgets.
 
 **Key Features:**
