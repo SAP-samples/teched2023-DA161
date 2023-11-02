@@ -8,7 +8,7 @@ This repository contains the material for the SAP TechEd 2023 session called DA1
 
 ## Overview
 
-This session consists of a series of exercises to introduce you to basics of SAP Analytics Cloud giving you the opportunity to interact with the latest visualizations, leverage basic planning capabilities, and learn to customize their dashboards using simple scripting all in a single user interface.
+This session consists of a series of exercises to introduce you to basics of SAP Analytics Cloud giving you the opportunity to interact with the latest visualizations, leverage basic dashboard core capabilities with No code, Low code features, and learn to customize their dashboards using simple scripting all in a single user interface.
 
 We've also included with our new Unified Story Experience which combines the simplicity of our traditional story-based dashboard and the extensibility of our existing analytics application building capabilities.
 
